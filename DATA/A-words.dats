@@ -53,6 +53,22 @@ val () =
 val w0 =
 word_create_add("admantine")
 //
+val () =
+word_add_meaning(w0, "a material that cannot be broken")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("adorn")
+//
+val () =
+word_add_meaning(w0, "make more beautiful")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -75,6 +91,9 @@ val () =
 //
 val w0 =
 word_create_add("ale")
+//
+val () =
+word_add_meaning(w0, "beer")
 //
 } // end of [val]
 
@@ -139,6 +158,9 @@ val () =
 val w0 =
 word_create_add("appraise")
 //
+val () =
+word_add_meaning(w0, "assess the quality of")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -148,6 +170,9 @@ val () =
 //
 val w0 =
 word_create_add("aristocratic")
+//
+val () =
+word_add_meaning(w0, "belonging to the highest class")
 //
 } // end of [val]
 
@@ -172,6 +197,9 @@ val () =
 val w0 =
 word_create_add("asphalt")
 //
+val () =
+word_add_meaning(w0, "a mixture used for surfacing roads")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -181,6 +209,9 @@ val () =
 //
 val w0 =
 word_create_add("aspirin")
+//
+val () =
+word_add_meaning(w0, "medicine used to relieve headaches")
 //
 } // end of [val]
 
@@ -231,6 +262,9 @@ val () =
 val w0 =
 word_create_add("audacity")
 //
+val () =
+word_add_meaning(w0, "willing to take bold risks")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -240,6 +274,9 @@ val () =
 //
 val w0 =
 word_create_add("avenge")
+//
+val () =
+word_add_meaning(w0, "do harm in return for")
 //
 } // end of [val]
 
@@ -251,6 +288,9 @@ val () =
 val w0 =
 word_create_add("avert")
 //
+val () =
+word_add_meaning(w0, "turn away")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -260,6 +300,9 @@ val () =
 //
 val w0 =
 word_create_add("awl")
+//
+val () =
+word_add_meaning(w0, "a tool to pierce holes")
 //
 } // end of [val]
 
