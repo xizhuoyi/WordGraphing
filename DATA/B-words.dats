@@ -240,6 +240,9 @@ val () =
 val w0 =
 word_create_add("bonfire")
 //
+val () =
+word_add_meaning(w0, "a large open-air fire used as part of a celebration, for burning trash, or as a signal")
+//
 } // end of [val]
 
 (* ****** ****** *)

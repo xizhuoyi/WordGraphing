@@ -467,8 +467,6 @@ word_create_add("prod")
 //
 val () =
 word_add_meaning(w0, "persuade someone to do something")
-val () =
-word_add_meaning(w0, "persuade someone to do something")
 //
 } // end of [val]
 

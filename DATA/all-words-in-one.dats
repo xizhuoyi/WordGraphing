@@ -1,5 +1,5 @@
 (*
-theDict.size() = 439
+theDict.size() = 438
 *)
 
 (* ****** ****** *)
@@ -569,6 +569,9 @@ val () =
 val w0 =
 word_create_add("bonfire")
 //
+val () =
+word_add_meaning(w0, "a large open-air fire used as part of a celebration, for burning trash, or as a signal")
+//
 } // end of [val]
 
 (* ****** ****** *)
@@ -798,7 +801,7 @@ val w0 =
 word_create_add("cay")
 //
 val () =
-word_add_meaning(w0, "a type of sound made by birds")
+word_add_meaning(w0, "a low bank or reef of coral, rock, or sand")
 //
 } // end of [val]
 
@@ -884,6 +887,9 @@ val () =
 //
 val w0 =
 word_create_add("clamber")
+//
+val () =
+word_add_meaning(w0, "climb, move, or get in or out of something in an awkward and laborious way, typically using both hands and feet.")
 //
 } // end of [val]
 
@@ -2745,8 +2751,6 @@ val w0 =
 word_create_add("intercede")
 //
 val () =
-word_add_meaning(w0, "take part in the interests of another")
-val () =
 word_add_meaning(w0, "take part on the interests of another")
 //
 } // end of [val]
@@ -3977,8 +3981,6 @@ word_create_add("prod")
 //
 val () =
 word_add_meaning(w0, "persuade someone to do something")
-val () =
-word_add_meaning(w0, "persuade someone to do something")
 //
 } // end of [val]
 
@@ -4076,7 +4078,7 @@ val w0 =
 word_create_add("recoil")
 //
 val () =
-word_add_meaning(w0, "suddenly sprin back in disgust")
+word_add_meaning(w0, "suddenly spring back in disgust")
 //
 } // end of [val]
 
@@ -5319,16 +5321,6 @@ word_create_add("underwent")
 //
 val () =
 word_add_meaning(w0, "experience")
-//
-} // end of [val]
-
-(* ****** ****** *)
-
-val () =
-{
-//
-val w0 =
-word_create_add("upbrin")
 //
 } // end of [val]
 

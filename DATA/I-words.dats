@@ -111,8 +111,6 @@ val w0 =
 word_create_add("intercede")
 //
 val () =
-word_add_meaning(w0, "take part in the interests of another")
-val () =
 word_add_meaning(w0, "take part on the interests of another")
 //
 } // end of [val]
