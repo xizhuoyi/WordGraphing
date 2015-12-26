@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("incline")
+//
+val () =
+word_add_meaning(w0, "feel willing to do")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("infatuate")
 //
 val () =
@@ -73,6 +86,19 @@ word_create_add("intensive")
 //
 val () =
 word_add_meaning(w0, "involving a lot of effort")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("intent")
+//
+val () =
+word_add_meaning(w0, "purpose")
 //
 } // end of [val]
 

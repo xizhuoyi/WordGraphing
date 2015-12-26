@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("carabiner")
+//
+val () =
+word_add_meaning(w0, "a tool used by rock climbers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("carcass")
 //
 val () =
@@ -344,6 +357,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("compensate")
+//
+val () =
+word_add_meaning(w0, "give someone something because of suffering")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("compress")
 //
 val () =
@@ -387,6 +413,19 @@ word_create_add("conquest")
 //
 val () =
 word_add_meaning(w0, "the control of a person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("contemptlate")
+//
+val () =
+word_add_meaning(w0, "think about")
 //
 } // end of [val]
 
@@ -488,6 +527,19 @@ word_create_add("creme")
 //
 val () =
 word_add_meaning(w0, "something that's creamy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cringe")
+//
+val () =
+word_add_meaning(w0, "bend one's head in fear")
 //
 } // end of [val]
 

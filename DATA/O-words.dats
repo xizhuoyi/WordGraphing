@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("omen")
+//
+val () =
+word_add_meaning(w0, "an event taken as good or evil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("oppose")
 //
 val () =

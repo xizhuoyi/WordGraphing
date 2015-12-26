@@ -51,6 +51,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("acropolis")
+//
+val () =
+word_add_meaning(w0, "a part of a Greek city on a hill")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("admantine")
 //
 val () =

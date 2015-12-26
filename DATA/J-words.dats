@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("jauntily")
+//
+val () =
+word_add_meaning(w0, "having a confident manner")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jeer")
 //
 val () =

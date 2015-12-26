@@ -259,6 +259,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("shaft")
+//
+val () =
+word_add_meaning(w0, "treat someone unfairly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shawl")
 //
 val () =
@@ -328,6 +341,19 @@ word_create_add("shuttle")
 //
 val () =
 word_add_meaning(w0, "a cone holding thread for weaving")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("sinew")
+//
+val () =
+word_add_meaning(w0, "a piece of body tissue connecting bone to muscle")
 //
 } // end of [val]
 
@@ -545,6 +571,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("spume")
+//
+val () =
+word_add_meaning(w0, "foam on waves")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("stagger")
 //
 val () =
@@ -646,6 +685,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("stud")
+//
+val () =
+word_add_meaning(w0, "a large piece of metal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("sullen")
 //
 val () =
@@ -663,6 +715,19 @@ word_create_add("sumptuous")
 //
 val () =
 word_add_meaning(w0, "splendid and expensive looking")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("surge")
+//
+val () =
+word_add_meaning(w0, "a sudden movement")
 //
 } // end of [val]
 

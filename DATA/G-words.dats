@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("girdle")
+//
+val () =
+word_add_meaning(w0, "a woman's belt")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gladiator")
 //
 val () =
@@ -97,6 +110,19 @@ word_create_add("goad")
 //
 val () =
 word_add_meaning(w0, "annoy someone to perform an action")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("goon")
+//
+val () =
+word_add_meaning(w0, "a silly foolish person")
 //
 } // end of [val]
 
@@ -197,6 +223,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grovel")
+//
+val () =
+word_add_meaning(w0, "lie flat with the face downward on the ground")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gruesome")
 //
 val () =
@@ -223,10 +262,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("guise")
+//
+val () =
+word_add_meaning(w0, "short for disguise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gumption")
 //
 val () =
 word_add_meaning(w0, "having the ability to overcome difficulties")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gurgling")
+//
+val () =
+word_add_meaning(w0, "making a bubbling sound")
 //
 } // end of [val]
 

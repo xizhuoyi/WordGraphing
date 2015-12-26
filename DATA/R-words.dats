@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("retrospect")
+//
+val () =
+word_add_meaning(w0, "a review of past events")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("revolt")
 //
 val () =
@@ -123,6 +136,19 @@ word_create_add("roan")
 //
 val () =
 word_add_meaning(w0, "a animal having two colors in their fur")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("roid")
+//
+val () =
+word_add_meaning(w0, "big muscles")
 //
 } // end of [val]
 

@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tabloid")
+//
+val () =
+word_add_meaning(w0, "a newspaper having smaller pages")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tapestry")
 //
 val () =
@@ -19,6 +32,19 @@ word_create_add("tatter")
 //
 val () =
 word_add_meaning(w0, "a part torn and left hanging")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tavern")
+//
+val () =
+word_add_meaning(w0, "a building for selling beer and staying overnight")
 //
 } // end of [val]
 
@@ -162,6 +188,19 @@ word_create_add("trample")
 //
 val () =
 word_add_meaning(w0, "crush")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("treason")
+//
+val () =
+word_add_meaning(w0, "the action of betraying someone")
 //
 } // end of [val]
 

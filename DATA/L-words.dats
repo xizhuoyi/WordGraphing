@@ -142,6 +142,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("lope")
+//
+val () =
+word_add_meaning(w0, "run with large steps")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lopside")
 //
 val () =

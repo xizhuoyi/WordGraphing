@@ -73,4 +73,17 @@ word_add_meaning(w0, "take a position of power by force")
 
 (* ****** ****** *)
 
+val () =
+{
+//
+val w0 =
+word_create_add("utility")
+//
+val () =
+word_add_meaning(w0, "the state of being useful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
 (* end of [U-words.dats] *)

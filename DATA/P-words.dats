@@ -66,6 +66,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("pantomime")
+//
+val () =
+word_add_meaning(w0, "dramatic mimicing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("papal")
 //
 val () =
@@ -83,6 +96,19 @@ word_create_add("paparazzi")
 //
 val () =
 word_add_meaning(w0, "a photographer who takes pictures of celebrities")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("parceled")
+//
+val () =
+word_add_meaning(w0, "distribute")
 //
 } // end of [val]
 
@@ -154,6 +180,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("penance")
+//
+val () =
+word_add_meaning(w0, "self punishment for something done wrong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("pendulum")
 //
 val () =
@@ -171,6 +210,19 @@ word_create_add("penetrate")
 //
 val () =
 word_add_meaning(w0, "go through something with force")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("perturb")
+//
+val () =
+word_add_meaning(w0, "make someone nervous")
 //
 } // end of [val]
 
@@ -210,6 +262,19 @@ word_create_add("pillage")
 //
 val () =
 word_add_meaning(w0, "rob using violence")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pious")
+//
+val () =
+word_add_meaning(w0, "very religious")
 //
 } // end of [val]
 
@@ -376,6 +441,19 @@ word_create_add("precipice")
 //
 val () =
 word_add_meaning(w0, "a very steep cliff")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("primordial")
+//
+val () =
+word_add_meaning(w0, "existing from the beginning of time")
 //
 } // end of [val]
 

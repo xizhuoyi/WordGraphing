@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("babe")
+//
+val () =
+word_add_meaning(w0, "a sexy attractive woman")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bachelorette")
 //
 val () =
@@ -86,6 +99,19 @@ word_create_add("baseboard")
 //
 val () =
 word_add_meaning(w0, "a wooden board around the wall")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bequile")
+//
+val () =
+word_add_meaning(w0, "charm someone")
 //
 } // end of [val]
 

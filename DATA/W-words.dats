@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("wend")
+//
+val () =
+word_add_meaning(w0, "go in a specific direction")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("whap")
 //
 val () =

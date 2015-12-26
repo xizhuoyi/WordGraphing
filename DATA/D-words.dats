@@ -173,6 +173,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("dexterous")
+//
+val () =
+word_add_meaning(w0, "demonstrating neat skill")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("differentiate")
 //
 } // end of [val]
@@ -230,6 +243,19 @@ word_create_add("disparage")
 //
 val () =
 word_add_meaning(w0, "of little worth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("distraught")
+//
+val () =
+word_add_meaning(w0, "deeply upset")
 //
 } // end of [val]
 
