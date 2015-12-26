@@ -1,5 +1,5 @@
 (*
-theDict.size() = 439
+theDict.size() = 438
 *)
 
 (* ****** ****** *)
@@ -2745,8 +2745,6 @@ val w0 =
 word_create_add("intercede")
 //
 val () =
-word_add_meaning(w0, "take part in the interests of another")
-val () =
 word_add_meaning(w0, "take part on the interests of another")
 //
 } // end of [val]
@@ -3977,8 +3975,6 @@ word_create_add("prod")
 //
 val () =
 word_add_meaning(w0, "persuade someone to do something")
-val () =
-word_add_meaning(w0, "persuade someone to do something")
 //
 } // end of [val]
 
@@ -4076,7 +4072,7 @@ val w0 =
 word_create_add("recoil")
 //
 val () =
-word_add_meaning(w0, "suddenly sprin back in disgust")
+word_add_meaning(w0, "suddenly spring back in disgust")
 //
 } // end of [val]
 
@@ -5319,16 +5315,6 @@ word_create_add("underwent")
 //
 val () =
 word_add_meaning(w0, "experience")
-//
-} // end of [val]
-
-(* ****** ****** *)
-
-val () =
-{
-//
-val w0 =
-word_create_add("upbrin")
 //
 } // end of [val]
 

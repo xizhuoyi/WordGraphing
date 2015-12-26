@@ -15,16 +15,6 @@ val () =
 {
 //
 val w0 =
-word_create_add("upbrin")
-//
-} // end of [val]
-
-(* ****** ****** *)
-
-val () =
-{
-//
-val w0 =
 word_create_add("upbring")
 //
 val () =

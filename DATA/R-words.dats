@@ -31,7 +31,7 @@ val w0 =
 word_create_add("recoil")
 //
 val () =
-word_add_meaning(w0, "suddenly sprin back in disgust")
+word_add_meaning(w0, "suddenly spring back in disgust")
 //
 } // end of [val]
 
