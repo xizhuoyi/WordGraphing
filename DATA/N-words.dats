@@ -37,4 +37,30 @@ word_add_meaning(w0, "calm and relaxed")
 
 (* ****** ****** *)
 
+val () =
+{
+//
+val w0 =
+word_create_add("nostalgia")
+//
+val () =
+word_add_meaning(w0, "a longing for the past")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("nurture")
+//
+val () =
+word_add_meaning(w0, "care for")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
 (* end of [N-words.dats] *)

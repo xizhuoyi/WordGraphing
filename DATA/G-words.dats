@@ -236,6 +236,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grub")
+//
+val () =
+word_add_meaning(w0, "food for birds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gruesome")
 //
 val () =

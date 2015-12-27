@@ -204,6 +204,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("extricate")
+//
+val () =
+word_add_meaning(w0, "free oneself")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("exuberant")
 //
 val () =

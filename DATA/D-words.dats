@@ -41,7 +41,33 @@ val () =
 {
 //
 val w0 =
+word_create_add("daunt")
+//
+val () =
+word_add_meaning(w0, "making someone feel intimidated")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dawdle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("debark")
+//
+val () =
+word_add_meaning(w0, "remove the bark from a tree")
 //
 } // end of [val]
 
@@ -220,6 +246,19 @@ val () =
 //
 val w0 =
 word_create_add("discourse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dismay")
+//
+val () =
+word_add_meaning(w0, "cause someone to feel depressed")
 //
 } // end of [val]
 

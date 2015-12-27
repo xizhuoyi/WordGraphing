@@ -41,6 +41,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("incubator")
+//
+val () =
+word_add_meaning(w0, "a machine to keep eggs at the right temperature so that they can hatch")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("infatuate")
 //
 val () =
@@ -73,6 +86,19 @@ word_create_add("ingot")
 //
 val () =
 word_add_meaning(w0, "a block of metal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("inquisitive")
+//
+val () =
+word_add_meaning(w0, "curious")
 //
 } // end of [val]
 

@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("jolt")
+//
+val () =
+word_add_meaning(w0, "push or shake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jut")
 //
 val () =

@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("cantankerous")
+//
+val () =
+word_add_meaning(w0, "bad tempered")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("carabiner")
 //
 val () =
@@ -83,7 +96,7 @@ val w0 =
 word_create_add("cay")
 //
 val () =
-word_add_meaning(w0, "a type of sound made by birds")
+word_add_meaning(w0, "a low bank or reef of coral, rock, or sand")
 //
 } // end of [val]
 
@@ -97,6 +110,19 @@ word_create_add("chamois")
 //
 val () =
 word_add_meaning(w0, "soft leather")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chard")
+//
+val () =
+word_add_meaning(w0, "a type of beet")
 //
 } // end of [val]
 
@@ -142,6 +168,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("chisel")
+//
+val () =
+word_add_meaning(w0, "a tool to cut wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("churn")
 //
 val () =
@@ -169,6 +208,9 @@ val () =
 //
 val w0 =
 word_create_add("clamber")
+//
+val () =
+word_add_meaning(w0, "climb, move, or get in or out of something in an awkward and laborious way, typically using both hands and feet.")
 //
 } // end of [val]
 
@@ -383,6 +425,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("concede")
+//
+val () =
+word_add_meaning(w0, "admit that something is true after denying")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("conch")
 //
 val () =
@@ -439,6 +494,32 @@ word_create_add("coo")
 //
 val () =
 word_add_meaning(w0, "speak in a gentle voice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("corporate")
+//
+val () =
+word_add_meaning(w0, "relating to a large company")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("correspondence")
+//
+val () =
+word_add_meaning(w0, "a close connection")
 //
 } // end of [val]
 
@@ -592,6 +673,19 @@ word_create_add("cubicle")
 //
 val () =
 word_add_meaning(w0, "a small side area")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("curt")
+//
+val () =
+word_add_synonym(w0, "brief")
 //
 } // end of [val]
 

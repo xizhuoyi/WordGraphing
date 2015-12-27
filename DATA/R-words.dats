@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("resolute")
+//
+val () =
+word_add_meaning(w0, "admirably determined")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("retrospect")
 //
 val () =
@@ -149,6 +162,19 @@ word_create_add("roid")
 //
 val () =
 word_add_meaning(w0, "big muscles")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rouse")
+//
+val () =
+word_add_synonym(w0, "awaken")
 //
 } // end of [val]
 

@@ -284,6 +284,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("placate")
+//
+val () =
+word_add_meaning(w0, "make less angry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("placid")
 //
 val () =
@@ -441,6 +454,19 @@ word_create_add("precipice")
 //
 val () =
 word_add_meaning(w0, "a very steep cliff")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("premise")
+//
+val () =
+word_add_meaning(w0, "land occupied by a business")
 //
 } // end of [val]
 

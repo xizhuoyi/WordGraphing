@@ -195,4 +195,17 @@ word_add_meaning(w0, "respond with great emotional or physical discomfort to (a 
 
 (* ****** ****** *)
 
+val () =
+{
+//
+val w0 =
+word_create_add("wryly")
+//
+val () =
+word_add_meaning(w0, "using dry humor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
 (* end of [W-words.dats] *)

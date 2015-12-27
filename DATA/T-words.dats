@@ -67,6 +67,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("teat")
+//
+val () =
+word_add_meaning(w0, "a cow's nipple")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tendon")
 //
 val () =

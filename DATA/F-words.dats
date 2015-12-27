@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("facade")
+//
+val () =
+word_add_meaning(w0, "the face of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("falter")
 //
 val () =
@@ -32,6 +45,19 @@ word_create_add("faux")
 //
 val () =
 word_add_meaning(w0, "fake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fawn")
+//
+val () =
+word_add_meaning(w0, "a young deer")
 //
 } // end of [val]
 
@@ -240,6 +266,19 @@ word_create_add("foolproof")
 //
 val () =
 word_add_meaning(w0, "not able to go wrong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fortify")
+//
+val () =
+word_add_meaning(w0, "strengthen a place")
 //
 } // end of [val]
 

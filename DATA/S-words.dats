@@ -90,6 +90,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("savage")
+//
+val () =
+word_add_meaning(w0, "fierce and uncontrolled")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("savagery")
 //
 val () =
@@ -389,6 +402,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("slander")
+//
+val () =
+word_add_meaning(w0, "make a false statement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("slaver")
 //
 val () =
@@ -480,10 +506,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("solemn")
+//
+val () =
+word_add_synonym(w0, "serious")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("solitaire")
+//
+val () =
+word_add_meaning(w0, "a one person card game")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("somber")
 //
 val () =
-word_add_meaning(w0, "dull in tone")
+word_add_meaning(w0, "dark and dull in tone")
 //
 } // end of [val]
 
@@ -662,6 +714,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("stonewall")
+//
+val () =
+word_add_meaning(w0, "block by refusing to answer questions")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("straggler")
+//
+val () =
+word_add_meaning(w0, "a person that moves along slowly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("stubborn")
 //
 val () =
@@ -701,7 +779,7 @@ val w0 =
 word_create_add("sullen")
 //
 val () =
-word_add_meaning(w0, "bad tempered")
+word_add_synonym(w0, "gloomy")
 //
 } // end of [val]
 

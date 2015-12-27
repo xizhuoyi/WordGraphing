@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hoax")
+//
+val () =
+word_add_meaning(w0, "something that causes someone to believe something that is not true")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("holographic")
 //
 val () =

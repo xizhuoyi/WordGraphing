@@ -82,6 +82,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("barricade")
+//
+val () =
+word_add_synonym(w0, "block")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("barter")
 //
 val () =
@@ -138,6 +151,19 @@ word_create_add("bewilder")
 //
 val () =
 word_add_meaning(w0, "cause someone to be confused")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bigwig")
+//
+val () =
+word_add_meaning(w0, "an important person")
 //
 } // end of [val]
 
@@ -225,6 +251,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bombard")
+//
+val () =
+word_add_synonym(w0, "attack")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bombast")
 //
 val () =
@@ -242,6 +281,19 @@ word_create_add("bonfire")
 //
 val () =
 word_add_meaning(w0, "a large open-air fire used as part of a celebration, for burning trash, or as a signal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bonsais")
+//
+val () =
+word_add_meaning(w0, "an artificial tree")
 //
 } // end of [val]
 
@@ -356,6 +408,19 @@ word_create_add("broach")
 //
 val () =
 word_add_meaning(w0, "raise for discussion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("brood")
+//
+val () =
+word_add_meaning(w0, "think deeply about something")
 //
 } // end of [val]
 

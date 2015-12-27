@@ -1,5 +1,5 @@
 (*
-theDict.size() = 438
+theDict.size() = 480
 *)
 
 (* ****** ****** *)
@@ -411,6 +411,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("barricade")
+//
+val () =
+word_add_synonym(w0, "block")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("barter")
 //
 val () =
@@ -467,6 +480,19 @@ word_create_add("bewilder")
 //
 val () =
 word_add_meaning(w0, "cause someone to be confused")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bigwig")
+//
+val () =
+word_add_meaning(w0, "an important person")
 //
 } // end of [val]
 
@@ -554,6 +580,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bombard")
+//
+val () =
+word_add_synonym(w0, "attack")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bombast")
 //
 val () =
@@ -571,6 +610,19 @@ word_create_add("bonfire")
 //
 val () =
 word_add_meaning(w0, "a large open-air fire used as part of a celebration, for burning trash, or as a signal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bonsais")
+//
+val () =
+word_add_meaning(w0, "an artificial tree")
 //
 } // end of [val]
 
@@ -694,6 +746,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("brood")
+//
+val () =
+word_add_meaning(w0, "think deeply about something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("buff")
 //
 val () =
@@ -737,6 +802,19 @@ word_create_add("callous")
 //
 val () =
 word_add_meaning(w0, "an area of hardened skin")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cantankerous")
+//
+val () =
+word_add_meaning(w0, "bad tempered")
 //
 } // end of [val]
 
@@ -824,6 +902,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("chard")
+//
+val () =
+word_add_meaning(w0, "a type of beet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("chinook")
 //
 val () =
@@ -851,6 +942,19 @@ val () =
 //
 val w0 =
 word_create_add("chirred")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chisel")
+//
+val () =
+word_add_meaning(w0, "a tool to cut wood")
 //
 } // end of [val]
 
@@ -1104,6 +1208,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("concede")
+//
+val () =
+word_add_meaning(w0, "admit that something is true after denying")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("conch")
 //
 val () =
@@ -1160,6 +1277,32 @@ word_create_add("coo")
 //
 val () =
 word_add_meaning(w0, "speak in a gentle voice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("corporate")
+//
+val () =
+word_add_meaning(w0, "relating to a large company")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("correspondence")
+//
+val () =
+word_add_meaning(w0, "a close connection")
 //
 } // end of [val]
 
@@ -1322,6 +1465,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("curt")
+//
+val () =
+word_add_synonym(w0, "brief")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("customary")
 //
 } // end of [val]
@@ -1397,7 +1553,33 @@ val () =
 {
 //
 val w0 =
+word_create_add("daunt")
+//
+val () =
+word_add_meaning(w0, "making someone feel intimidated")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dawdle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("debark")
+//
+val () =
+word_add_meaning(w0, "remove the bark from a tree")
 //
 } // end of [val]
 
@@ -1576,6 +1758,19 @@ val () =
 //
 val w0 =
 word_create_add("discourse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dismay")
+//
+val () =
+word_add_meaning(w0, "cause someone to feel depressed")
 //
 } // end of [val]
 
@@ -1875,10 +2070,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("extricate")
+//
+val () =
+word_add_meaning(w0, "free oneself")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("exuberant")
 //
 val () =
 word_add_meaning(w0, "full of energy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("facade")
+//
+val () =
+word_add_meaning(w0, "the face of something")
 //
 } // end of [val]
 
@@ -1918,6 +2139,19 @@ word_create_add("faux")
 //
 val () =
 word_add_meaning(w0, "fake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fawn")
+//
+val () =
+word_add_meaning(w0, "a young deer")
 //
 } // end of [val]
 
@@ -2126,6 +2360,19 @@ word_create_add("foolproof")
 //
 val () =
 word_add_meaning(w0, "not able to go wrong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fortify")
+//
+val () =
+word_add_meaning(w0, "strengthen a place")
 //
 } // end of [val]
 
@@ -2447,6 +2694,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grub")
+//
+val () =
+word_add_meaning(w0, "food for birds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gruesome")
 //
 val () =
@@ -2590,6 +2850,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hoax")
+//
+val () =
+word_add_meaning(w0, "something that causes someone to believe something that is not true")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("holographic")
 //
 val () =
@@ -2681,6 +2954,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("incubator")
+//
+val () =
+word_add_meaning(w0, "a machine to keep eggs at the right temperature so that they can hatch")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("infatuate")
 //
 val () =
@@ -2713,6 +2999,19 @@ word_create_add("ingot")
 //
 val () =
 word_add_meaning(w0, "a block of metal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("inquisitive")
+//
+val () =
+word_add_meaning(w0, "curious")
 //
 } // end of [val]
 
@@ -2827,6 +3126,19 @@ word_create_add("jeer")
 //
 val () =
 word_add_meaning(w0, "make rude remarks")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("jolt")
+//
+val () =
+word_add_meaning(w0, "push or shake")
 //
 } // end of [val]
 
@@ -3197,6 +3509,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("martyr")
+//
+val () =
+word_add_meaning(w0, "a person who is killed because of their beliefs")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("matron")
 //
 val () =
@@ -3214,6 +3539,19 @@ word_create_add("meld")
 //
 val () =
 word_add_meaning(w0, "combine")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("melodramatic")
+//
+val () =
+word_add_meaning(w0, "an exaggerated dramatic piece")
 //
 } // end of [val]
 
@@ -3442,6 +3780,32 @@ word_create_add("nonchalance")
 //
 val () =
 word_add_meaning(w0, "calm and relaxed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("nostalgia")
+//
+val () =
+word_add_meaning(w0, "a longing for the past")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("nurture")
+//
+val () =
+word_add_meaning(w0, "care for")
 //
 } // end of [val]
 
@@ -3798,6 +4162,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("placate")
+//
+val () =
+word_add_meaning(w0, "make less angry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("placid")
 //
 val () =
@@ -3955,6 +4332,19 @@ word_create_add("precipice")
 //
 val () =
 word_add_meaning(w0, "a very steep cliff")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("premise")
+//
+val () =
+word_add_meaning(w0, "land occupied by a business")
 //
 } // end of [val]
 
@@ -4127,6 +4517,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("resolute")
+//
+val () =
+word_add_meaning(w0, "admirably determined")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("retrospect")
 //
 val () =
@@ -4196,6 +4599,19 @@ word_create_add("roid")
 //
 val () =
 word_add_meaning(w0, "big muscles")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rouse")
+//
+val () =
+word_add_synonym(w0, "awaken")
 //
 } // end of [val]
 
@@ -4310,6 +4726,19 @@ word_create_add("saunter")
 //
 val () =
 word_add_meaning(w0, "walk slowly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("savage")
+//
+val () =
+word_add_meaning(w0, "fierce and uncontrolled")
 //
 } // end of [val]
 
@@ -4618,6 +5047,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("slander")
+//
+val () =
+word_add_meaning(w0, "make a false statement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("slaver")
 //
 val () =
@@ -4709,10 +5151,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("solemn")
+//
+val () =
+word_add_synonym(w0, "serious")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("solitaire")
+//
+val () =
+word_add_meaning(w0, "a one person card game")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("somber")
 //
 val () =
-word_add_meaning(w0, "dull in tone")
+word_add_meaning(w0, "dark and dull in tone")
 //
 } // end of [val]
 
@@ -4891,6 +5359,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("stonewall")
+//
+val () =
+word_add_meaning(w0, "block by refusing to answer questions")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("straggler")
+//
+val () =
+word_add_meaning(w0, "a person that moves along slowly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("stubborn")
 //
 val () =
@@ -4930,7 +5424,7 @@ val w0 =
 word_create_add("sullen")
 //
 val () =
-word_add_meaning(w0, "bad tempered")
+word_add_synonym(w0, "gloomy")
 //
 } // end of [val]
 
@@ -5061,6 +5555,19 @@ word_create_add("tearjerker")
 //
 val () =
 word_add_meaning(w0, "a sad story")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("teat")
+//
+val () =
+word_add_meaning(w0, "a cow's nipple")
 //
 } // end of [val]
 
@@ -5395,6 +5902,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("varnish")
+//
+val () =
+word_add_meaning(w0, "a liquid to apply on wood to give it a shiny surface")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("veal")
+//
+val () =
+word_add_meaning(w0, "baby cow flesh")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("veneer")
 //
 val () =
@@ -5657,10 +6190,23 @@ val () =
 {
 //
 val w0 =
+word_create_add("wryly")
+//
+val () =
+word_add_meaning(w0, "using dry humor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("yeti")
 //
 val () =
-word_add_meaning(w0, "a large hairy creature")
+word_add_meaning(w0, "a large abominable hairy creature")
 //
 } // end of [val]
 

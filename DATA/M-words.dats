@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("martyr")
+//
+val () =
+word_add_meaning(w0, "a person who is killed because of their beliefs")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("matron")
 //
 val () =
@@ -97,6 +110,19 @@ word_create_add("meld")
 //
 val () =
 word_add_meaning(w0, "combine")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("melodramatic")
+//
+val () =
+word_add_meaning(w0, "an exaggerated dramatic piece")
 //
 } // end of [val]
 

@@ -2,6 +2,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("varnish")
+//
+val () =
+word_add_meaning(w0, "a liquid to apply on wood to give it a shiny surface")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("veal")
+//
+val () =
+word_add_meaning(w0, "baby cow flesh")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("veneer")
 //
 val () =
