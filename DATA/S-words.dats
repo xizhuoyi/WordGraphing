@@ -116,6 +116,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("scaffold")
+//
+val () =
+word_add_meaning(w0, "a temporary structure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("scalpel")
 //
 val () =
@@ -142,10 +155,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("schism")
+//
+val () =
+word_add_meaning(w0, "an argument between two strongly opposed parties")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("scoff")
 //
 val () =
 word_add_meaning(w0, "speak to someone in a teasing way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("scour")
+//
+val () =
+word_add_meaning(w0, "a search to locate something")
 //
 } // end of [val]
 
@@ -285,6 +324,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("sham")
+//
+val () =
+word_add_meaning(w0, "something that's not what it's supposed to be")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shawl")
 //
 val () =
@@ -363,6 +415,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("siege")
+//
+val () =
+word_add_meaning(w0, "when enemy forces surround a place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("sinew")
 //
 val () =
@@ -432,6 +497,19 @@ word_create_add("slosh")
 //
 val () =
 word_add_meaning(w0, "move with a splashing sound")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("slum")
+//
+val () =
+word_add_meaning(w0, "spending time with a lower social level")
 //
 } // end of [val]
 
@@ -623,10 +701,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("splotch")
+//
+val () =
+word_add_meaning(w0, "a blot of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("spritzer")
+//
+val () =
+word_add_meaning(w0, "a mixture of wine and soda")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("spume")
 //
 val () =
 word_add_meaning(w0, "foam on waves")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("spurn")
+//
+val () =
+word_add_meaning(w0, "reject")
 //
 } // end of [val]
 
@@ -692,6 +809,19 @@ word_create_add("sternum")
 //
 val () =
 word_add_meaning(w0, "the breastbone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("stoker")
+//
+val () =
+word_add_meaning(w0, "a person who tends the furnace")
 //
 } // end of [val]
 
@@ -767,6 +897,19 @@ word_create_add("stud")
 //
 val () =
 word_add_meaning(w0, "a large piece of metal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("subsequent")
+//
+val () =
+word_add_meaning(w0, "following")
 //
 } // end of [val]
 

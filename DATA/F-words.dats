@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("fartura")
+//
+val () =
+word_add_meaning(w0, "a Portuguese donut")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fathom")
 //
 val () =
@@ -96,7 +109,46 @@ val w0 =
 word_create_add("fennel")
 //
 val () =
-word_add_meaning(w0, "a yellow flower in Europe")
+word_add_meaning(w0, "a yellow flower with flowery leaves")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ferment")
+//
+val () =
+word_add_meaning(w0, "sugars converted to alchohol")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fervent")
+//
+val () =
+word_add_synonym(w0, "hot")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fester")
+//
+val () =
+word_add_meaning(w0, "become infected")
 //
 } // end of [val]
 
@@ -110,6 +162,19 @@ word_create_add("festoon")
 //
 val () =
 word_add_meaning(w0, "a chain of decoration")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fiberglass")
+//
+val () =
+word_add_meaning(w0, "plastic made out of glass")
 //
 } // end of [val]
 
@@ -136,6 +201,19 @@ word_create_add("flamenco")
 //
 val () =
 word_add_meaning(w0, "a style of Spanish music with singing and dancing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("flank")
+//
+val () =
+word_add_meaning(w0, "the side of an animal's body")
 //
 } // end of [val]
 
@@ -262,6 +340,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("foolhardy")
+//
+val () =
+word_add_meaning(w0, "reckless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("foolproof")
 //
 val () =
@@ -331,6 +422,19 @@ word_create_add("frazzle")
 //
 val () =
 word_add_meaning(w0, "tire out")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("frill")
+//
+val () =
+word_add_meaning(w0, "a strip of material")
 //
 } // end of [val]
 

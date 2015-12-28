@@ -28,10 +28,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("jerkin")
+//
+val () =
+word_add_meaning(w0, "a sleeveless jacket")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("jilt")
+//
+val () =
+word_add_meaning(w0, "suddenly abandon")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jolt")
 //
 val () =
 word_add_meaning(w0, "push or shake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("juju")
+//
+val () =
+word_add_meaning(w0, "a style of guitar music")
 //
 } // end of [val]
 

@@ -82,6 +82,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("barrage")
+//
+val () =
+word_add_meaning(w0, "an attack over a wide area")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("barricade")
 //
 val () =
@@ -121,10 +134,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("battalion")
+//
+val () =
+word_add_meaning(w0, "a large group ready for battle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bequile")
 //
 val () =
 word_add_meaning(w0, "charm someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("berth")
+//
+val () =
+word_add_meaning(w0, "a bed on a ship")
 //
 } // end of [val]
 
@@ -173,6 +212,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bile")
+//
+val () =
+word_add_meaning(w0, "a bitter fluid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("billow")
 //
 val () =
@@ -199,6 +251,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("biplane")
+//
+val () =
+word_add_meaning(w0, "an early airplane")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("blanch")
 //
 val () =
@@ -216,6 +281,19 @@ word_create_add("bleary")
 //
 val () =
 word_add_meaning(w0, "looking dull from tiredness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("blokade")
+//
+val () =
+word_add_meaning(w0, "an act of sealing off a place")
 //
 } // end of [val]
 
@@ -254,7 +332,7 @@ val w0 =
 word_create_add("bombard")
 //
 val () =
-word_add_synonym(w0, "attack")
+word_add_meaning(w0, "attack (a place or person) continuously with bombs, shells, or other missiles.")
 //
 } // end of [val]
 
@@ -316,6 +394,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bovine")
+//
+val () =
+word_add_synonym(w0, "cow-like")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bramble")
 //
 val () =
@@ -333,6 +424,19 @@ word_create_add("brass")
 //
 val () =
 word_add_meaning(w0, "a yellow metal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("brawl")
+//
+val () =
+word_add_meaning(w0, "a rough fight")
 //
 } // end of [val]
 
@@ -369,6 +473,19 @@ word_create_add("breach")
 //
 val () =
 word_add_meaning(w0, "a whale rising through the water")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("breeches")
+//
+val () =
+word_add_meaning(w0, "short pants")
 //
 } // end of [val]
 
@@ -434,6 +551,19 @@ word_create_add("buff")
 //
 val () =
 word_add_meaning(w0, "a person with big muscles")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bumbler")
+//
+val () =
+word_add_meaning(w0, "a person who speaks in a confused way")
 //
 } // end of [val]
 

@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("notion")
+//
+val () =
+word_add_meaning(w0, "a belief about something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("nurture")
 //
 val () =

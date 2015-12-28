@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("unfurl")
+//
+val () =
+word_add_meaning(w0, "become spread out")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("upbring")
 //
 val () =

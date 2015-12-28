@@ -41,10 +41,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("canter")
+//
+val () =
+word_add_meaning(w0, "the pace of a horse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("carabiner")
 //
 val () =
 word_add_meaning(w0, "a tool used by rock climbers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("carburetor")
+//
+val () =
+word_add_meaning(w0, "a device in an engine")
 //
 } // end of [val]
 
@@ -93,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("cavalry")
+//
+val () =
+word_add_meaning(w0, "soldiers who fought on horseback ")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cay")
 //
 val () =
@@ -119,10 +158,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("chapel")
+//
+val () =
+word_add_meaning(w0, "a small Christian worship building")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("charbroil")
+//
+val () =
+word_add_meaning(w0, "grill over charcoal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("chard")
 //
 val () =
 word_add_meaning(w0, "a type of beet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chasten")
+//
+val () =
+word_add_meaning(w0, "have a preventing effect on")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chauvinist")
+//
+val () =
+word_add_meaning(w0, "an aggressive person")
 //
 } // end of [val]
 
@@ -198,6 +289,19 @@ word_create_add("chutney")
 //
 val () =
 word_add_meaning(w0, "an Indian sauce")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cicada")
+//
+val () =
+word_add_meaning(w0, "a winged large bug")
 //
 } // end of [val]
 
@@ -373,6 +477,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("com")
+//
+val () =
+word_add_meaning(w0, "computer produce")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("commandeer")
+//
+val () =
+word_add_meaning(w0, "officially take control")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("commodity")
 //
 val () =
@@ -451,6 +581,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("concise")
+//
+val () =
+word_add_meaning(w0, "brief but understandable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("concur")
 //
 val () =
@@ -490,10 +633,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("contigency")
+//
+val () =
+word_add_meaning(w0, "a possible future event")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("conveyor")
+//
+val () =
+word_add_meaning(w0, "a moving band of metal to transport objects")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("coo")
 //
 val () =
 word_add_meaning(w0, "speak in a gentle voice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("copacetic")
+//
+val () =
+word_add_meaning(w0, "in excellent order")
 //
 } // end of [val]
 
@@ -559,6 +741,19 @@ word_create_add("covert")
 //
 val () =
 word_add_meaning(w0, "not seen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cowl")
+//
+val () =
+word_add_meaning(w0, "a large loose hood")
 //
 } // end of [val]
 
@@ -646,7 +841,7 @@ val w0 =
 word_create_add("crude")
 //
 val () =
-word_add_meaning(w0, "lacking completeness")
+word_add_meaning(w0, "in a natural state")
 //
 } // end of [val]
 
@@ -686,6 +881,19 @@ word_create_add("curt")
 //
 val () =
 word_add_synonym(w0, "brief")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cusp")
+//
+val () =
+word_add_meaning(w0, "a pointed end")
 //
 } // end of [val]
 

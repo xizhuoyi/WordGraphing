@@ -41,6 +41,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("warbling")
+//
+val () =
+word_add_meaning(w0, "a soft voice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wedgie")
 //
 val () =
@@ -58,6 +71,19 @@ word_create_add("wend")
 //
 val () =
 word_add_meaning(w0, "go in a specific direction")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("whammy")
+//
+val () =
+word_add_meaning(w0, "a powerful blow")
 //
 } // end of [val]
 
@@ -93,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("whelp")
+//
+val () =
+word_add_meaning(w0, "a small boy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wimp")
 //
 val () =
@@ -119,6 +158,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("winch")
+//
+val () =
+word_add_meaning(w0, "a lifting device")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wisp")
 //
 val () =
@@ -136,6 +188,19 @@ word_create_add("wistful")
 //
 val () =
 word_add_meaning(w0, "a feeling of regretful longing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("womanizer")
+//
+val () =
+word_add_meaning(w0, "having many marriages with different women")
 //
 } // end of [val]
 
@@ -175,6 +240,19 @@ word_create_add("woozy")
 //
 val () =
 word_add_synonym(w0, "dizzy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wraith")
+//
+val () =
+word_add_meaning(w0, "a ghost")
 //
 } // end of [val]
 

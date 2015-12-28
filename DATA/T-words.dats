@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tantalize")
+//
+val () =
+word_add_meaning(w0, "torment someone with the sight of someone or something unattainable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tapestry")
 //
 val () =
@@ -106,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("testimony")
+//
+val () =
+word_add_meaning(w0, "a formal written statement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("throttle")
 //
 val () =
@@ -175,6 +201,45 @@ word_create_add("toiletries")
 //
 val () =
 word_add_meaning(w0, "articles used for washing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("torque")
+//
+val () =
+word_add_synonym(w0, "twist")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("torrent")
+//
+val () =
+word_add_meaning(w0, "fast moving liquid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("torso")
+//
+val () =
+word_add_meaning(w0, "the main part of the body")
 //
 } // end of [val]
 
@@ -262,6 +327,45 @@ val () =
 {
 //
 val w0 =
+word_create_add("trimester")
+//
+val () =
+word_add_meaning(w0, "a period of three months")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tripod")
+//
+val () =
+word_add_meaning(w0, "a three legged stand")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("triremes")
+//
+val () =
+word_add_meaning(w0, "a Greek or Roman ship")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tubular")
 //
 val () =
@@ -279,6 +383,19 @@ word_create_add("tuft")
 //
 val () =
 word_add_meaning(w0, "a bunch of hair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("turtledove")
+//
+val () =
+word_add_meaning(w0, "a small dove")
 //
 } // end of [val]
 

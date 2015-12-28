@@ -103,6 +103,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("linchpin")
+//
+val () =
+word_add_meaning(w0, "a person necessary to something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lint")
 //
 val () =

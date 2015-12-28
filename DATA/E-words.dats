@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ebony")
+//
+val () =
+word_add_meaning(w0, "black")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("elate")
 //
 val () =
@@ -28,10 +41,75 @@ val () =
 {
 //
 val w0 =
+word_create_add("emblem")
+//
+val () =
+word_add_meaning(w0, "a symbolic object")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("embodiment")
 //
 val () =
 word_add_meaning(w0, "a visible form of an idea")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("emo")
+//
+val () =
+word_add_meaning(w0, "a style of rock music")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("encore")
+//
+val () =
+word_add_meaning(w0, "an additional performance at the end")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("endear")
+//
+val () =
+word_add_meaning(w0, "cause to be loved")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("endoresment")
+//
+val () =
+word_add_meaning(w0, "declare one's support")
 //
 } // end of [val]
 
@@ -90,7 +168,33 @@ val () =
 {
 //
 val w0 =
+word_create_add("epsilon")
+//
+val () =
+word_add_meaning(w0, "the fifth letter of the Greek alphabet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("erald")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("erect")
+//
+val () =
+word_add_meaning(w0, "construct a building")
 //
 } // end of [val]
 
@@ -130,6 +234,19 @@ word_create_add("etiquette")
 //
 val () =
 word_add_meaning(w0, "polite public behavior")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("euro")
+//
+val () =
+word_add_meaning(w0, "European money")
 //
 } // end of [val]
 
@@ -221,6 +338,19 @@ word_create_add("exuberant")
 //
 val () =
 word_add_meaning(w0, "full of energy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("exude")
+//
+val () =
+word_add_meaning(w0, "let out a smell")
 //
 } // end of [val]
 

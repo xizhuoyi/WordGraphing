@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("obelisk")
+//
+val () =
+word_add_meaning(w0, "a tall stone structure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("oblivion")
 //
 val () =
@@ -32,6 +45,19 @@ word_create_add("omen")
 //
 val () =
 word_add_meaning(w0, "an event taken as good or evil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("opium")
+//
+val () =
+word_add_meaning(w0, "a reddish-brown drug")
 //
 } // end of [val]
 

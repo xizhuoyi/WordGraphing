@@ -28,10 +28,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("velour")
+//
+val () =
+word_add_meaning(w0, "a woven fabric resembling velvet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("veneer")
 //
 val () =
-word_add_meaning(w0, "an appearance that covers someone's true feelings")
+word_add_meaning(w0, "an appearance that disguises someone's true feelings")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("venerate")
+//
+val () =
+word_add_meaning(w0, "regard with great respect")
 //
 } // end of [val]
 
@@ -45,6 +71,19 @@ word_create_add("verdict")
 //
 val () =
 word_add_meaning(w0, "an opinion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("veto")
+//
+val () =
+word_add_meaning(w0, "rejecting a decision")
 //
 } // end of [val]
 

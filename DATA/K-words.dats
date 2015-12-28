@@ -50,4 +50,17 @@ word_add_meaning(w0, "a type of small common fish")
 
 (* ****** ****** *)
 
+val () =
+{
+//
+val w0 =
+word_create_add("kudzu")
+//
+val () =
+word_add_meaning(w0, "an Asian climbing vine")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
 (* end of [K-words.dats] *)

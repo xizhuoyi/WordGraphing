@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("garrison")
+//
+val () =
+word_add_meaning(w0, "people defending a town")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("giddy")
 //
 val () =
@@ -45,6 +58,19 @@ word_create_add("glaze")
 //
 val () =
 word_add_meaning(w0, "cover with glass")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("glean")
+//
+val () =
+word_add_meaning(w0, "collect bit by bit")
 //
 } // end of [val]
 
@@ -132,10 +158,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("gore")
+//
+val () =
+word_add_meaning(w0, "bloodshed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gossamer")
 //
 val () =
 word_add_meaning(w0, "a light material")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gouge")
+//
+val () =
+word_add_meaning(w0, "make a dent in a stone")
 //
 } // end of [val]
 
@@ -171,10 +223,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("grenade")
+//
+val () =
+word_add_meaning(w0, "a small bomb")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("groggy")
 //
 val () =
 word_add_meaning(w0, "weak because of sleep")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("groin")
+//
+val () =
+word_add_meaning(w0, "the hip")
 //
 } // end of [val]
 

@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hacienda")
+//
+val () =
+word_add_meaning(w0, "a large amount of food")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hailing")
 //
 val () =
@@ -106,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("homicidal")
+//
+val () =
+word_add_meaning(w0, "relating to murder")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("honeycake")
 //
 val () =
@@ -136,6 +162,19 @@ word_create_add("husk")
 //
 val () =
 word_add_meaning(w0, "the outer cover of some fruits")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hypnotic")
+//
+val () =
+word_add_meaning(w0, "applying a fascinating effect")
 //
 } // end of [val]
 

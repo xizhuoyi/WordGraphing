@@ -30,6 +30,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("palmetto")
+//
+val () =
+word_add_meaning(w0, "a palm tree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("palpable")
 //
 val () =
@@ -105,6 +118,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("parapet")
+//
+val () =
+word_add_meaning(w0, "a low protective wall")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("parceled")
 //
 val () =
@@ -119,6 +145,32 @@ val () =
 //
 val w0 =
 word_create_add("parched")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("parlay")
+//
+val () =
+word_add_meaning(w0, "transform into something more valuable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("patrician")
+//
+val () =
+word_add_meaning(w0, "a person of the highest class")
 //
 } // end of [val]
 
@@ -145,6 +197,32 @@ word_create_add("patron")
 //
 val () =
 word_add_meaning(w0, "a person who gives support")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pauldron")
+//
+val () =
+word_add_meaning(w0, "breast plate armor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("payload")
+//
+val () =
+word_add_meaning(w0, "a vehicle")
 //
 } // end of [val]
 
@@ -219,10 +297,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("pensive")
+//
+val () =
+word_add_meaning(w0, "engaged in")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("perturb")
 //
 val () =
 word_add_meaning(w0, "make someone nervous")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pestle")
+//
+val () =
+word_add_meaning(w0, "a heavy tool used to grind spice")
 //
 } // end of [val]
 
@@ -324,6 +428,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("plantain")
+//
+val () =
+word_add_meaning(w0, "a tropical banana")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("plaster")
+//
+val () =
+word_add_synonym(w0, "cover")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("plausible")
 //
 val () =
@@ -391,6 +521,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("poltergeist")
+//
+val () =
+word_add_meaning(w0, "a ghost responsible for a disturbance")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ponder")
 //
 } // end of [val]
@@ -405,6 +548,19 @@ word_create_add("poplar")
 //
 val () =
 word_add_meaning(w0, "a type of tall tree that grows in the Underworld")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("potshot")
+//
+val () =
+word_add_meaning(w0, "a shot aimed at random")
 //
 } // end of [val]
 
@@ -476,6 +632,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("premonition")
+//
+val () =
+word_add_meaning(w0, "a strong feeling that something bad is going to happen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("primordial")
 //
 val () =
@@ -493,6 +662,32 @@ word_create_add("prod")
 //
 val () =
 word_add_meaning(w0, "persuade someone to do something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("profanity")
+//
+val () =
+word_add_meaning(w0, "offensive language")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("protocol")
+//
+val () =
+word_add_meaning(w0, "the official system of rules")
 //
 } // end of [val]
 
@@ -539,6 +734,19 @@ val () =
 //
 val w0 =
 word_create_add("pun")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("putrid")
+//
+val () =
+word_add_synonym(w0, "rotting")
 //
 } // end of [val]
 

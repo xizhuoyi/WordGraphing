@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("abalone")
+//
+val () =
+word_add_meaning(w0, "a shell made of pearls")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("abduct")
 //
 } // end of [val]
@@ -103,6 +116,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("alcove")
+//
+val () =
+word_add_meaning(w0, "a hollow space")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ale")
 //
 val () =
@@ -146,10 +172,75 @@ val () =
 {
 //
 val w0 =
+word_create_add("anemic")
+//
+val () =
+word_add_meaning(w0, "lacking in spirit")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("anemone")
+//
+val () =
+word_add_meaning(w0, "a plant of the buttercup family")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("antagonism")
 //
 val () =
 word_add_meaning(w0, "active unfriendliness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("anthrax")
+//
+val () =
+word_add_meaning(w0, "a sheep and cow bacteria")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("apocalypse")
+//
+val () =
+word_add_meaning(w0, "the complete final destruction of the world")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("apoplectic")
+//
+val () =
+word_add_meaning(w0, "overcome with anger")
 //
 } // end of [val]
 
@@ -186,6 +277,19 @@ word_create_add("aristocratic")
 //
 val () =
 word_add_meaning(w0, "belonging to the highest class")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("artillerist")
+//
+val () =
+word_add_meaning(w0, "large guns")
 //
 } // end of [val]
 
@@ -264,6 +368,19 @@ word_create_add("astrolobe")
 //
 val () =
 word_add_meaning(w0, "an instrument used for astronomy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("attune")
+//
+val () =
+word_add_meaning(w0, "make aware")
 //
 } // end of [val]
 
