@@ -199,6 +199,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("insatiable")
+//
+val () =
+word_add_meaning(w0, "impossible to satisfy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("intensive")
 //
 val () =
@@ -268,6 +281,19 @@ word_create_add("intrepid")
 //
 val () =
 word_add_meaning(w0, "fearless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("invert")
+//
+val () =
+word_add_meaning(w0, "put upside down")
 //
 } // end of [val]
 

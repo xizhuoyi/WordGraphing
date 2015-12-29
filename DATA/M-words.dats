@@ -197,6 +197,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("maxim")
+//
+val () =
+word_add_meaning(w0, "a short statement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("meld")
 //
 val () =
@@ -311,6 +324,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("misnomer")
+//
+val () =
+word_add_meaning(w0, "a wrong name")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("miso")
 //
 val () =
@@ -347,6 +373,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("moderator")
+//
+val () =
+word_add_meaning(w0, "a person who attempts to make people involved in an argument agree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("mope")
 //
 val () =
@@ -373,6 +412,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("mosh")
+//
+val () =
+word_add_meaning(w0, "dancing to rock music")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("motif")
 //
 val () =
@@ -390,6 +442,19 @@ word_create_add("mottle")
 //
 val () =
 word_add_meaning(w0, "mark with spots of color")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mouthfeel")
+//
+val () =
+word_add_meaning(w0, "the physical sensations in the mouth produced by a particular food")
 //
 } // end of [val]
 

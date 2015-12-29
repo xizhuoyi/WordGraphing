@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hind")
+//
+val () =
+word_add_meaning(w0, "a female deer")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hitch")
 //
 val () =

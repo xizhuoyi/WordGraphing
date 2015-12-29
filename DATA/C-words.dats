@@ -428,6 +428,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("cloying")
+//
+val () =
+word_add_meaning(w0, "disgusting")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("coax")
 //
 } // end of [val]
@@ -494,6 +507,19 @@ word_create_add("commandeer")
 //
 val () =
 word_add_meaning(w0, "officially take control")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("commensurate")
+//
+val () =
+word_add_meaning(w0, "in proportion")
 //
 } // end of [val]
 
@@ -598,6 +624,32 @@ word_create_add("concur")
 //
 val () =
 word_add_meaning(w0, "agree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("condense")
+//
+val () =
+word_add_meaning(w0, "make more concentrated")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("congregate")
+//
+val () =
+word_add_meaning(w0, "gather into a crowd")
 //
 } // end of [val]
 
@@ -829,6 +881,19 @@ word_create_add("critique")
 //
 val () =
 word_add_meaning(w0, "a detailed evaluation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crotch")
+//
+val () =
+word_add_meaning(w0, "the area between the legs")
 //
 } // end of [val]
 

@@ -44,7 +44,7 @@ val w0 =
 word_create_add("dapple")
 //
 val () =
-word_add_meaning(w0, "mark with spots")
+word_add_meaning(w0, "marked with spots")
 //
 } // end of [val]
 
@@ -151,6 +151,19 @@ word_create_add("delta")
 //
 val () =
 word_add_meaning(w0, "a triangle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("demurred")
+//
+val () =
+word_add_meaning(w0, "raise doubts")
 //
 } // end of [val]
 
@@ -281,6 +294,19 @@ word_create_add("dexterous")
 //
 val () =
 word_add_meaning(w0, "demonstrating neat skill")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dextose")
+//
+val () =
+word_add_meaning(w0, "a type of sugar")
 //
 } // end of [val]
 
@@ -421,10 +447,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("distend")
+//
+val () =
+word_add_synonym(w0, "swell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("distraught")
 //
 val () =
 word_add_meaning(w0, "deeply upset")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("diverge")
+//
+val () =
+word_add_meaning(w0, "seperate from a main root to go in a different direction")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("docudrama")
+//
+val () =
+word_add_meaning(w0, "drama on TV")
 //
 } // end of [val]
 

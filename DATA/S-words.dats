@@ -714,6 +714,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("spree")
+//
+val () =
+word_add_meaning(w0, "a sustained activity for a period of time")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("spritzer")
 //
 val () =
@@ -805,6 +818,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("stature")
+//
+val () =
+word_add_meaning(w0, "importance")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("sternum")
 //
 val () =
@@ -861,6 +887,19 @@ word_create_add("straggler")
 //
 val () =
 word_add_meaning(w0, "a person that moves along slowly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("strudel")
+//
+val () =
+word_add_meaning(w0, "a layered pastry")
 //
 } // end of [val]
 
@@ -945,10 +984,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("surefire")
+//
+val () =
+word_add_meaning(w0, "certain to succeed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("surge")
 //
 val () =
 word_add_meaning(w0, "a sudden movement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("surrogate")
+//
+val () =
+word_add_synonym(w0, "subsitute")
 //
 } // end of [val]
 

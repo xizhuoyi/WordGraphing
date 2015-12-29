@@ -303,6 +303,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("blooper")
+//
+val () =
+word_add_meaning(w0, "a great embarrassing error")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("blotch")
 //
 val () =
@@ -320,6 +333,32 @@ word_create_add("blowtorch")
 //
 val () =
 word_add_meaning(w0, "a device producing a hot flame")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bludgeon")
+//
+val () =
+word_add_meaning(w0, "a thick stick used as a weapon")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("blustery")
+//
+val () =
+word_add_meaning(w0, "strong winds")
 //
 } // end of [val]
 

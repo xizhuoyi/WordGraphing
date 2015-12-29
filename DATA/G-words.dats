@@ -236,6 +236,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grisly")
+//
+val () =
+word_add_meaning(w0, "causing horror")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("groggy")
 //
 val () =

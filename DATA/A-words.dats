@@ -77,6 +77,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("additive")
+//
+val () =
+word_add_meaning(w0, "a chemical to preserve food")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("adjourn")
+//
+val () =
+word_add_meaning(w0, "break off a meeting to resume later")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("admantine")
 //
 val () =
@@ -133,6 +159,19 @@ word_create_add("ale")
 //
 val () =
 word_add_meaning(w0, "beer")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("allure")
+//
+val () =
+word_add_meaning(w0, "mysteriously attractive")
 //
 } // end of [val]
 

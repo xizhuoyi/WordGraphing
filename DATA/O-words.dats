@@ -80,10 +80,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("optimize")
+//
+val () =
+word_add_meaning(w0, "make the best use of")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("optimum")
+//
+val () =
+word_add_meaning(w0, "the best")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ornate")
 //
 val () =
 word_add_meaning(w0, "highly decorated")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("override")
+//
+val () =
+word_add_meaning(w0, "use one's authority to reject")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overrode")
+//
+val () =
+word_add_meaning(w0, "overlap")
 //
 } // end of [val]
 

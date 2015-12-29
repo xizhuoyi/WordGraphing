@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ectastic")
+//
+val () =
+word_add_meaning(w0, "feeling great happiness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("elate")
 //
 val () =
@@ -58,6 +71,19 @@ word_create_add("embodiment")
 //
 val () =
 word_add_meaning(w0, "a visible form of an idea")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("embolden")
+//
+val () =
+word_add_meaning(w0, "give someone courage")
 //
 } // end of [val]
 

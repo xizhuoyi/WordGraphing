@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("receptor")
+//
+val () =
+word_add_meaning(w0, "a cell that recieves signals")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("recoil")
 //
 val () =
@@ -97,6 +110,19 @@ word_create_add("reek")
 //
 val () =
 word_add_meaning(w0, "smell strongly of")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("regale")
+//
+val () =
+word_add_meaning(w0, "entertain with talk")
 //
 } // end of [val]
 
@@ -136,6 +162,19 @@ word_create_add("relish")
 //
 val () =
 word_add_meaning(w0, "great enjoyment")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("render")
+//
+val () =
+word_add_synonym(w0, "provide")
 //
 } // end of [val]
 
@@ -292,6 +331,19 @@ word_create_add("roan")
 //
 val () =
 word_add_meaning(w0, "a animal having two colors in their fur")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("roast")
+//
+val () =
+word_add_meaning(w0, "cut meat")
 //
 } // end of [val]
 

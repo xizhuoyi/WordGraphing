@@ -41,6 +41,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tartar")
+//
+val () =
+word_add_meaning(w0, "a cold fish sauce")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tatter")
 //
 val () =
@@ -383,6 +396,19 @@ word_create_add("tuft")
 //
 val () =
 word_add_meaning(w0, "a bunch of hair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("turnover")
+//
+val () =
+word_add_meaning(w0, "a small pie")
 //
 } // end of [val]
 

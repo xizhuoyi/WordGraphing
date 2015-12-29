@@ -30,6 +30,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("palate")
+//
+val () =
+word_add_meaning(w0, "the roof of the mouth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("palmetto")
 //
 val () =
@@ -57,6 +70,19 @@ word_add_synonym(w0, "perceptible")
 //
 val () =
 word_add_antonym(w0, "imperceptible")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("panelist")
+//
+val () =
+word_add_meaning(w0, "a member of a small group")
 //
 } // end of [val]
 
@@ -388,6 +414,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("pique")
+//
+val () =
+word_add_meaning(w0, "a feeling of irritation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("placate")
 //
 val () =
@@ -445,6 +484,19 @@ word_create_add("plaster")
 //
 val () =
 word_add_synonym(w0, "cover")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("plateau")
+//
+val () =
+word_add_meaning(w0, "high ground")
 //
 } // end of [val]
 

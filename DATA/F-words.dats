@@ -93,6 +93,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("feat")
+//
+val () =
+word_add_meaning(w0, "a great achievement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fend")
 //
 val () =
@@ -340,6 +353,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("folly")
+//
+val () =
+word_add_meaning(w0, "foolishness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("foolhardy")
 //
 val () =
@@ -357,6 +383,19 @@ word_create_add("foolproof")
 //
 val () =
 word_add_meaning(w0, "not able to go wrong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("foremost")
+//
+val () =
+word_add_meaning(w0, "most important")
 //
 } // end of [val]
 

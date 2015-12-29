@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("underpinning")
+//
+val () =
+word_add_meaning(w0, "a foundation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("underwent")
 //
 val () =
