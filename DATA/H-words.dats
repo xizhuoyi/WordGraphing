@@ -54,6 +54,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("hedge")
+//
+val () =
+word_add_meaning(w0, "closely growing bushes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hefty")
+//
+val () =
+word_add_meaning(w0, "large and heavy and powerful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("heifer")
 //
 val () =
@@ -97,6 +123,19 @@ word_create_add("hitch")
 //
 val () =
 word_add_synonym(w0, "fasten")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hitherto")
+//
+val () =
+word_add_meaning(w0, "until now")
 //
 } // end of [val]
 

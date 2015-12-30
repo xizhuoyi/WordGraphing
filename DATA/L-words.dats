@@ -64,10 +64,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("leathern")
+//
+val () =
+word_add_meaning(w0, "made of leather")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("leer")
 //
 val () =
 word_add_meaning(w0, "look in an unpleasant way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lemur")
+//
+val () =
+word_add_meaning(w0, "a nocturnal animal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lethargic")
+//
+val () =
+word_add_meaning(w0, "slow moving")
 //
 } // end of [val]
 
@@ -155,6 +194,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("longue")
+//
+val () =
+word_add_meaning(w0, "a long chair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lope")
 //
 val () =
@@ -172,6 +224,19 @@ word_create_add("lopside")
 //
 val () =
 word_add_meaning(w0, "one side lower than the other")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lugubrious")
+//
+val () =
+word_add_meaning(w0, "looking or sounding sad")
 //
 } // end of [val]
 
@@ -211,6 +276,19 @@ word_create_add("lush")
 //
 val () =
 word_add_meaning(w0, "beautiful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lustily")
+//
+val () =
+word_add_meaning(w0, "in a healthy way")
 //
 } // end of [val]
 

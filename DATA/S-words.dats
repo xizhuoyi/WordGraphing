@@ -41,6 +41,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("sallied")
+//
+val () =
+word_add_meaning(w0, "set out from a place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("salmonella")
+//
+val () =
+word_add_meaning(w0, "a type of bacteria")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("sandbar")
 //
 val () =
@@ -298,6 +324,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("serviettes")
+//
+val () =
+word_add_meaning(w0, "a table napkin")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shackle")
 //
 val () =
@@ -328,6 +367,19 @@ word_create_add("sham")
 //
 val () =
 word_add_meaning(w0, "something that's not what it's supposed to be")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("shaman")
+//
+val () =
+word_add_meaning(w0, "a medicine man or woman")
 //
 } // end of [val]
 
@@ -389,6 +441,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("shorthand")
+//
+val () =
+word_add_meaning(w0, "rapid writing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shroud")
 //
 val () =
@@ -406,6 +471,19 @@ word_create_add("shuttle")
 //
 val () =
 word_add_meaning(w0, "a cone holding thread for weaving")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("sideboard")
+//
+val () =
+word_add_meaning(w0, "a flat piece of furniture")
 //
 } // end of [val]
 
@@ -558,6 +636,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("smoc")
+//
+val () =
+word_add_meaning(w0, "a loose dress")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("smote")
 //
 val () =
@@ -575,6 +666,19 @@ word_create_add("smug")
 //
 val () =
 word_add_meaning(w0, "showing pride for one's achievements")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("snuffle")
+//
+val () =
+word_add_meaning(w0, "breathe noisily while crying")
 //
 } // end of [val]
 
@@ -649,6 +753,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("souffle")
+//
+val () =
+word_add_meaning(w0, "a lightly baked cake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("spar")
 //
 val () =
@@ -705,6 +822,19 @@ word_create_add("splotch")
 //
 val () =
 word_add_meaning(w0, "a blot of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("spontaneous")
+//
+val () =
+word_add_meaning(w0, "occuring as a result of a sudden impulse")
 //
 } // end of [val]
 
@@ -821,7 +951,7 @@ val w0 =
 word_create_add("stature")
 //
 val () =
-word_add_meaning(w0, "importance")
+word_add_synonym(w0, "importance")
 //
 } // end of [val]
 
@@ -835,6 +965,19 @@ word_create_add("sternum")
 //
 val () =
 word_add_meaning(w0, "the breastbone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("stingy")
+//
+val () =
+word_add_meaning(w0, "unwilling to give or spend")
 //
 } // end of [val]
 
@@ -945,10 +1088,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("subdue")
+//
+val () =
+word_add_meaning(w0, "quieten a feeling")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("subsequent")
 //
 val () =
 word_add_meaning(w0, "following")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("substantial")
+//
+val () =
+word_add_meaning(w0, "of considerable importance")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("subtleties")
+//
+val () =
+word_add_meaning(w0, "the quality ofbein precise")
 //
 } // end of [val]
 
@@ -984,6 +1166,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("superfluous")
+//
+val () =
+word_add_synonym(w0, "unnecessary")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("surefire")
 //
 val () =
@@ -1001,6 +1196,19 @@ word_create_add("surge")
 //
 val () =
 word_add_meaning(w0, "a sudden movement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("surly")
+//
+val () =
+word_add_meaning(w0, "bad tempered")
 //
 } // end of [val]
 

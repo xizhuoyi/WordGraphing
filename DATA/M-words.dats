@@ -197,6 +197,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("maverick")
+//
+val () =
+word_add_meaning(w0, "an independent minded person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("maxim")
 //
 val () =
@@ -227,6 +240,19 @@ word_create_add("melodramatic")
 //
 val () =
 word_add_meaning(w0, "an exaggerated dramatic piece")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("memorablia")
+//
+val () =
+word_add_meaning(w0, "historical objects collected")
 //
 } // end of [val]
 
@@ -315,6 +341,19 @@ word_create_add("minuscule")
 //
 val () =
 word_add_meaning(w0, "extremely tiny")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("misfit")
+//
+val () =
+word_add_meaning(w0, "a person whose behavior sets them apart")
 //
 } // end of [val]
 

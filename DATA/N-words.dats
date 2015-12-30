@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("nevus")
+//
+val () =
+word_add_meaning(w0, "a birthmark")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("noggin")
 //
 val () =

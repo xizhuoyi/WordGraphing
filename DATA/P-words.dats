@@ -5,9 +5,9 @@ val w0 =
 word_create_add("pabulum")
 //
 val () =
-word_add_meaning(w0, "bland or insipid intellectual fare, entertainment, etc.; pap.")
-val () =
 word_add_meaning(w0, "plain entertainment")
+val () =
+word_add_meaning(w0, "bland or insipid intellectual fare, entertainment, etc.; pap.")
 //
 } // end of [val]
 
@@ -21,6 +21,19 @@ word_create_add("pachinko")
 //
 val () =
 word_add_meaning(w0, "a Japanese form of pinball")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("painstaking")
+//
+val () =
+word_add_meaning(w0, "done with great care")
 //
 } // end of [val]
 
@@ -59,17 +72,30 @@ val w0 =
 word_create_add("palpable")
 //
 val () =
-word_add_meaning(w0, "so intense as to be almost touched or felt.")
+word_add_meaning(w0, "able to be touched or felt")
 val () =
 word_add_meaning(w0, "clear to the mind or plain to see.")
 val () =
-word_add_meaning(w0, "able to be touched or felt")
+word_add_meaning(w0, "so intense as to be almost touched or felt.")
 //
 val () =
 word_add_synonym(w0, "perceptible")
 //
 val () =
 word_add_antonym(w0, "imperceptible")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("panama")
+//
+val () =
+word_add_meaning(w0, "a wide brimmed hat")
 //
 } // end of [val]
 
@@ -96,6 +122,19 @@ word_create_add("panoramic")
 //
 val () =
 word_add_meaning(w0, "a wide view")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pansexual")
+//
+val () =
+word_add_meaning(w0, "not limited in sexual choice with regards to gender")
 //
 } // end of [val]
 
@@ -135,6 +174,19 @@ word_create_add("paparazzi")
 //
 val () =
 word_add_meaning(w0, "a photographer who takes pictures of celebrities")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("paraffin")
+//
+val () =
+word_add_meaning(w0, "a type of wax")
 //
 } // end of [val]
 
@@ -184,6 +236,32 @@ word_create_add("parlay")
 //
 val () =
 word_add_meaning(w0, "transform into something more valuable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("parlour")
+//
+val () =
+word_add_meaning(w0, "a sitting room")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("parole")
+//
+val () =
+word_add_meaning(w0, "the release of a prisoner")
 //
 } // end of [val]
 
@@ -323,6 +401,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("penitent")
+//
+val () =
+word_add_meaning(w0, "feeling or showing sorrow or regret for what one has done wrong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("pensive")
 //
 val () =
@@ -336,10 +427,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("persecuting")
+//
+val () =
+word_add_meaning(w0, "ill treatment")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("perturb")
 //
 val () =
 word_add_meaning(w0, "make someone nervous")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("perversity")
+//
+val () =
+word_add_meaning(w0, "a desire to behave badly")
 //
 } // end of [val]
 
@@ -392,6 +509,19 @@ word_create_add("pillage")
 //
 val () =
 word_add_meaning(w0, "rob using violence")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pinion")
+//
+val () =
+word_add_meaning(w0, "tie the arms together")
 //
 } // end of [val]
 
@@ -522,8 +652,6 @@ val w0 =
 word_create_add("plumage")
 //
 val () =
-word_add_meaning(w0, "a collction of bird feathers")
-val () =
 word_add_meaning(w0, "a collection of bird feathers")
 //
 } // end of [val]
@@ -600,6 +728,45 @@ word_create_add("poplar")
 //
 val () =
 word_add_meaning(w0, "a type of tall tree that grows in the Underworld")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("porochial")
+//
+val () =
+word_add_meaning(w0, "relating to church")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("porta")
+//
+val () =
+word_add_meaning(w0, "something that is portable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("potbelly")
+//
+val () =
+word_add_meaning(w0, "a large round stomach")
 //
 } // end of [val]
 
@@ -697,6 +864,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("prevail")
+//
+val () =
+word_add_meaning(w0, "prove more powerful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("primate")
+//
+val () =
+word_add_meaning(w0, "a mammal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("primordial")
 //
 val () =
@@ -736,6 +929,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("prophetic")
+//
+val () =
+word_add_meaning(w0, "accurately predicting")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("protocol")
 //
 val () =
@@ -749,10 +955,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("protusion")
+//
+val () =
+word_add_meaning(w0, "the act of extending or something that protrudes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("provocation")
+//
+val () =
+word_add_meaning(w0, "an action that makes someone angry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("psyched")
 //
 val () =
 word_add_meaning(w0, "excited")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("psychosis")
+//
+val () =
+word_add_meaning(w0, "a disease where people are disconnected from reality")
 //
 } // end of [val]
 
@@ -799,6 +1044,19 @@ word_create_add("putrid")
 //
 val () =
 word_add_synonym(w0, "rotting")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("pygmy")
+//
+val () =
+word_add_meaning(w0, "very small")
 //
 } // end of [val]
 

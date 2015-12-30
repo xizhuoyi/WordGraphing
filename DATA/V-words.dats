@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("validation")
+//
+val () =
+word_add_meaning(w0, "to make legally valid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("varnish")
 //
 val () =
@@ -110,6 +123,32 @@ word_create_add("vibe")
 //
 val () =
 word_add_meaning(w0, "a person's emotional state")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vigour")
+//
+val () =
+word_add_meaning(w0, "physical strength")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vindicate")
+//
+val () =
+word_add_meaning(w0, "clear of blame")
 //
 } // end of [val]
 

@@ -168,6 +168,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("allotted")
+//
+val () =
+word_add_meaning(w0, "give something to someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("allure")
 //
 val () =
@@ -228,6 +241,19 @@ word_create_add("anemone")
 //
 val () =
 word_add_meaning(w0, "a plant of the buttercup family")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("anon")
+//
+val () =
+word_add_synonym(w0, "soon")
 //
 } // end of [val]
 
@@ -325,6 +351,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("armchair")
+//
+val () =
+word_add_meaning(w0, "a comfortable chair with supports for arms")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("artillerist")
 //
 val () =
@@ -390,6 +429,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("assiduous")
+//
+val () =
+word_add_meaning(w0, "showing care")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("astride")
 //
 val () =
@@ -407,6 +459,19 @@ word_create_add("astrolobe")
 //
 val () =
 word_add_meaning(w0, "an instrument used for astronomy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("asymmetrical")
+//
+val () =
+word_add_meaning(w0, "lacking symmetry")
 //
 } // end of [val]
 

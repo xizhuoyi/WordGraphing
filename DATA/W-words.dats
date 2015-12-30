@@ -15,6 +15,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("waistband")
+//
+val () =
+word_add_meaning(w0, "a strip of cloth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("waistcoat")
+//
+val () =
+word_add_meaning(w0, "a vest")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wallaby")
 //
 val () =
@@ -45,6 +71,32 @@ word_create_add("warbling")
 //
 val () =
 word_add_meaning(w0, "a soft voice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("warden")
+//
+val () =
+word_add_meaning(w0, "a person responsible to look over a place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("waterfowl")
+//
+val () =
+word_add_meaning(w0, "aquatic birds")
 //
 } // end of [val]
 
@@ -132,6 +184,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("wicket")
+//
+val () =
+word_add_meaning(w0, "a small door")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wimp")
 //
 val () =
@@ -162,6 +227,19 @@ word_create_add("winch")
 //
 val () =
 word_add_meaning(w0, "a lifting device")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("windowpane")
+//
+val () =
+word_add_meaning(w0, "glass in a window")
 //
 } // end of [val]
 
@@ -240,6 +318,19 @@ word_create_add("woozy")
 //
 val () =
 word_add_synonym(w0, "dizzy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("workhouse")
+//
+val () =
+word_add_meaning(w0, "a prison to work in")
 //
 } // end of [val]
 

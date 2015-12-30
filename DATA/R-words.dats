@@ -41,6 +41,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("rave")
+//
+val () =
+word_add_meaning(w0, "talk wildly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rearview")
+//
+val () =
+word_add_meaning(w0, "a mirror that shows an area behind a vehicle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("recalcitrant")
 //
 val () =
@@ -132,6 +158,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("regulate")
+//
+val () =
+word_add_synonym(w0, "control")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("reinvent")
 //
 val () =
@@ -184,6 +223,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("repugnant")
+//
+val () =
+word_add_meaning(w0, "unacceptable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("residue")
+//
+val () =
+word_add_meaning(w0, "a small remainder")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("resolute")
 //
 val () =
@@ -214,6 +279,19 @@ word_create_add("resurrect")
 //
 val () =
 word_add_meaning(w0, "restore a dead person to life")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("reticent")
+//
+val () =
+word_add_meaning(w0, "not revealing one's thoughts or feelings readily")
 //
 } // end of [val]
 
@@ -353,6 +431,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("robust")
+//
+val () =
+word_add_synonym(w0, "strong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("roid")
 //
 val () =
@@ -396,6 +487,32 @@ word_create_add("rucksack")
 //
 val () =
 word_add_meaning(w0, "a backpack used by hikers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ruddy")
+//
+val () =
+word_add_meaning(w0, "having a healthy red color")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rumination")
+//
+val () =
+word_add_meaning(w0, "think deeply")
 //
 } // end of [val]
 

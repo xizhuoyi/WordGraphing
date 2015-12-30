@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("earnest")
+//
+val () =
+word_add_meaning(w0, "showing sincereness or a promise of what to come")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ebony")
 //
 val () =
@@ -132,6 +145,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("enderament")
+//
+val () =
+word_add_meaning(w0, "a word expressing love")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("endoresment")
 //
 val () =
@@ -185,6 +211,45 @@ word_create_add("enhance")
 //
 val () =
 word_add_synonym(w0, "increase")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enquiring")
+//
+val () =
+word_add_meaning(w0, "showing a interest")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enrich")
+//
+val () =
+word_add_synonym(w0, "improve")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enthused")
+//
+val () =
+word_add_synonym(w0, "interested")
 //
 } // end of [val]
 
@@ -377,6 +442,19 @@ word_create_add("exude")
 //
 val () =
 word_add_meaning(w0, "let out a smell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("eyestrain")
+//
+val () =
+word_add_meaning(w0, "tiredness of the eyes")
 //
 } // end of [val]
 

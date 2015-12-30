@@ -197,6 +197,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("fishtail")
+//
+val () =
+word_add_meaning(w0, "an object that is divided")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fixate")
 //
 val () =
@@ -236,10 +249,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("flax")
+//
+val () =
+word_add_meaning(w0, "a type of fiber")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("flay")
 //
 val () =
 word_add_meaning(w0, "strip the skin off")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fleabag")
+//
+val () =
+word_add_meaning(w0, "a run down hotel")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fleck")
+//
+val () =
+word_add_meaning(w0, "a small patch of color")
 //
 } // end of [val]
 
@@ -327,6 +379,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("flowerbed")
+//
+val () =
+word_add_meaning(w0, "a garden plot")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fluster")
 //
 val () =
@@ -356,7 +421,7 @@ val w0 =
 word_create_add("folly")
 //
 val () =
-word_add_meaning(w0, "foolishness")
+word_add_synonym(w0, "foolishness")
 //
 } // end of [val]
 
@@ -487,6 +552,19 @@ word_create_add("funnel")
 //
 val () =
 word_add_meaning(w0, "a tube used to guide liquid into an opening")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("furball")
+//
+val () =
+word_add_meaning(w0, "a furry pet animal")
 //
 } // end of [val]
 

@@ -134,6 +134,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("deleterious")
+//
+val () =
+word_add_meaning(w0, "causing damage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("delirous")
 //
 val () =
@@ -151,6 +164,19 @@ word_create_add("delta")
 //
 val () =
 word_add_meaning(w0, "a triangle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("demolition")
+//
+val () =
+word_add_meaning(w0, "knock down")
 //
 } // end of [val]
 
@@ -190,6 +216,32 @@ word_create_add("denim")
 //
 val () =
 word_add_meaning(w0, "a hard cotton used for jeans")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("deodorant")
+//
+val () =
+word_add_meaning(w0, "a cream that removes bad smells")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("derange")
+//
+val () =
+word_add_meaning(w0, "cause to become insane")
 //
 } // end of [val]
 
@@ -316,6 +368,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("dicey")
+//
+val () =
+word_add_synonym(w0, "unpredictable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("differentiate")
 //
 } // end of [val]
@@ -330,6 +395,19 @@ word_create_add("dilate")
 //
 val () =
 word_add_meaning(w0, "become larger")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("diligence")
+//
+val () =
+word_add_meaning(w0, "careful work")
 //
 } // end of [val]
 
@@ -356,6 +434,8 @@ word_create_add("dimple")
 //
 val () =
 word_add_meaning(w0, "a wrinkle in the skin")
+val () =
+word_add_meaning(w0, "a small depression in the flesh")
 //
 } // end of [val]
 
@@ -451,6 +531,19 @@ word_create_add("distend")
 //
 val () =
 word_add_synonym(w0, "swell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("distilled")
+//
+val () =
+word_add_meaning(w0, "purifying a liquid by adding more water to it")
 //
 } // end of [val]
 
@@ -590,10 +683,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("drudge")
+//
+val () =
+word_add_meaning(w0, "a person made to do hard work")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dubious")
 //
 val () =
 word_add_meaning(w0, "hesitating or doubting")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dully")
+//
+val () =
+word_add_meaning(w0, "less intense")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dustbin")
+//
+val () =
+word_add_meaning(w0, "a garbage can")
 //
 } // end of [val]
 

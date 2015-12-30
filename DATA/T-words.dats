@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tangy")
+//
+val () =
+word_add_meaning(w0, "having a strong flavor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tantalize")
 //
 val () =
@@ -106,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("temerity")
+//
+val () =
+word_add_meaning(w0, "boldness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tendon")
 //
 val () =
@@ -171,6 +197,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("timorous")
+//
+val () =
+word_add_meaning(w0, "suffering from fear")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tinny")
 //
 val () =
@@ -197,10 +236,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("toadstool")
+//
+val () =
+word_add_meaning(w0, "a poisonous mushroom")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("toffee")
 //
 val () =
 word_add_meaning(w0, "a type of hard sweet which softens when chewed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tography")
+//
+val () =
+word_add_meaning(w0, "short for photography")
 //
 } // end of [val]
 
@@ -262,6 +327,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("trailer")
+//
+val () =
+word_add_meaning(w0, "an unpowered vehicle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("traipsing")
 //
 val () =
@@ -279,6 +357,19 @@ word_create_add("trample")
 //
 val () =
 word_add_meaning(w0, "crush")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("traumatize")
+//
+val () =
+word_add_meaning(w0, "going through lasting shock")
 //
 } // end of [val]
 
@@ -370,6 +461,32 @@ word_create_add("triremes")
 //
 val () =
 word_add_meaning(w0, "a Greek or Roman ship")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("troop")
+//
+val () =
+word_add_meaning(w0, "a group of people")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("truancy")
+//
+val () =
+word_add_meaning(w0, "staying from school")
 //
 } // end of [val]
 

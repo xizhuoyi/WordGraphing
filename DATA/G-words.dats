@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gaslight")
+//
+val () =
+word_add_meaning(w0, "a burning gas lamp")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("giddy")
 //
 val () =
@@ -28,10 +41,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("gin")
+//
+val () =
+word_add_meaning(w0, "a clear alchohol")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("girdle")
 //
 val () =
 word_add_meaning(w0, "a woman's belt")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gizmo")
+//
+val () =
+word_add_meaning(w0, "a fancy tool")
 //
 } // end of [val]
 
@@ -301,6 +340,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("groundless")
+//
+val () =
+word_add_meaning(w0, "not based on good reason")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("groundwork")
+//
+val () =
+word_add_meaning(w0, "basic work")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("grove")
 //
 val () =
@@ -396,6 +461,19 @@ word_create_add("gurgling")
 //
 val () =
 word_add_meaning(w0, "making a bubbling sound")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gusto")
+//
+val () =
+word_add_synonym(w0, "enjoyment")
 //
 } // end of [val]
 

@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("baptize")
+//
+val () =
+word_add_meaning(w0, "give a Christian name")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("barb")
 //
 val () =
@@ -70,9 +83,9 @@ val w0 =
 word_create_add("barracuda")
 //
 val () =
-word_add_meaning(w0, "Barracuda is a ray-finned fish known for its large size and fearsome appearance. Its body is long, fairly compressed, and covered with small, smooth scales.")
-val () =
 word_add_meaning(w0, "a type of tropical fish")
+val () =
+word_add_meaning(w0, "Barracuda is a ray-finned fish known for its large size and fearsome appearance. Its body is long, fairly compressed, and covered with small, smooth scales.")
 //
 } // end of [val]
 
@@ -138,6 +151,19 @@ word_create_add("battalion")
 //
 val () =
 word_add_meaning(w0, "a large group ready for battle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("beadle")
+//
+val () =
+word_add_meaning(w0, "a church officer")
 //
 } // end of [val]
 
@@ -229,6 +255,19 @@ word_create_add("billow")
 //
 val () =
 word_add_meaning(w0, "fill with air")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("binge")
+//
+val () =
+word_add_meaning(w0, "a short period devoted to something")
 //
 } // end of [val]
 
@@ -359,6 +398,32 @@ word_create_add("blustery")
 //
 val () =
 word_add_meaning(w0, "strong winds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bobble")
+//
+val () =
+word_add_meaning(w0, "a small ball")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bogus")
+//
+val () =
+word_add_synonym(w0, "fake")
 //
 } // end of [val]
 
@@ -564,6 +629,19 @@ word_create_add("broach")
 //
 val () =
 word_add_meaning(w0, "raise for discussion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("broadcast")
+//
+val () =
+word_add_meaning(w0, "pass along by TV")
 //
 } // end of [val]
 

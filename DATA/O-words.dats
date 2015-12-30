@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("oakum")
+//
+val () =
+word_add_meaning(w0, "loose fiber")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("obelisk")
 //
 val () =
@@ -41,10 +54,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("oddball")
+//
+val () =
+word_add_meaning(w0, "a strange person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("omen")
 //
 val () =
 word_add_meaning(w0, "an event taken as good or evil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("onscreen")
+//
+val () =
+word_add_meaning(w0, "shown in a movie")
 //
 } // end of [val]
 
@@ -119,6 +158,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("outreach")
+//
+val () =
+word_add_meaning(w0, "the length of reaching")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("override")
 //
 val () =
@@ -136,6 +188,19 @@ word_create_add("overrode")
 //
 val () =
 word_add_meaning(w0, "overlap")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overseer")
+//
+val () =
+word_add_meaning(w0, "a person who observes others")
 //
 } // end of [val]
 

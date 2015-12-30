@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ignoramus")
+//
+val () =
+word_add_meaning(w0, "an ignorant person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("immerse")
 //
 val () =
@@ -19,6 +32,19 @@ word_create_add("imminent")
 //
 val () =
 word_add_meaning(w0, "about to happen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("immobile")
+//
+val () =
+word_add_meaning(w0, "not moving")
 //
 } // end of [val]
 
@@ -71,6 +97,32 @@ word_create_add("imploring")
 //
 val () =
 word_add_meaning(w0, "plead")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("importune")
+//
+val () =
+word_add_meaning(w0, "ask persistantly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("incarcerate")
+//
+val () =
+word_add_synonym(w0, "confine")
 //
 } // end of [val]
 
@@ -136,8 +188,19 @@ word_create_add("infatuate")
 //
 val () =
 word_add_meaning(w0, "be inspired with admiration for")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
 val () =
-word_add_meaning(w0, "be inspired with admiration for")
+{
+//
+val w0 =
+word_create_add("infirm")
+//
+val () =
+word_add_synonym(w0, "weak")
 //
 } // end of [val]
 
@@ -186,6 +249,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("inmates")
+//
+val () =
+word_add_meaning(w0, "people in prison")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("inquisitive")
 //
 val () =
@@ -201,6 +277,8 @@ val () =
 val w0 =
 word_create_add("insatiable")
 //
+val () =
+word_add_meaning(w0, "impossible to satisfy")
 val () =
 word_add_meaning(w0, "impossible to satisfy")
 //
@@ -281,6 +359,19 @@ word_create_add("intrepid")
 //
 val () =
 word_add_meaning(w0, "fearless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("invariably")
+//
+val () =
+word_add_synonym(w0, "always")
 //
 } // end of [val]
 

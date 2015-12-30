@@ -5,7 +5,7 @@ val w0 =
 word_create_add("underpinning")
 //
 val () =
-word_add_meaning(w0, "a foundation")
+word_add_synonym(w0, "foundation")
 //
 } // end of [val]
 
@@ -32,6 +32,19 @@ word_create_add("unfurl")
 //
 val () =
 word_add_meaning(w0, "become spread out")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("unyield")
+//
+val () =
+word_add_meaning(w0, "not giving way")
 //
 } // end of [val]
 

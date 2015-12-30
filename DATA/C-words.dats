@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("captivate")
+//
+val () =
+word_add_synonym(w0, "attract")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("carabiner")
 //
 val () =
@@ -119,6 +132,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("caustic")
+//
+val () =
+word_add_meaning(w0, "destructive to organic tissues")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cavalry")
 //
 val () =
@@ -136,6 +162,32 @@ word_create_add("cay")
 //
 val () =
 word_add_meaning(w0, "a low bank or reef of coral, rock, or sand")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cellular")
+//
+val () =
+word_add_meaning(w0, "relating to living cells")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chambermaid")
+//
+val () =
+word_add_meaning(w0, "a maid to clean bedrooms")
 //
 } // end of [val]
 
@@ -188,6 +240,32 @@ word_create_add("chard")
 //
 val () =
 word_add_meaning(w0, "a type of beet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("charman")
+//
+val () =
+word_add_meaning(w0, "a janitor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("charwoman")
+//
+val () =
+word_add_meaning(w0, "a woman employed to clean houses")
 //
 } // end of [val]
 
@@ -431,7 +509,7 @@ val w0 =
 word_create_add("cloying")
 //
 val () =
-word_add_meaning(w0, "disgusting")
+word_add_synonym(w0, "disgusting")
 //
 } // end of [val]
 
@@ -442,6 +520,19 @@ val () =
 //
 val w0 =
 word_create_add("coax")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cock")
+//
+val () =
+word_add_synonym(w0, "tilt")
 //
 } // end of [val]
 
@@ -555,6 +646,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("compellingly")
+//
+val () =
+word_add_meaning(w0, "bringing interest")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("compensate")
 //
 val () =
@@ -585,6 +689,19 @@ word_create_add("concede")
 //
 val () =
 word_add_meaning(w0, "admit that something is true after denying")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("concerto")
+//
+val () =
+word_add_meaning(w0, "a music piece for a solo")
 //
 } // end of [val]
 
@@ -698,10 +815,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("converse")
+//
+val () =
+word_add_meaning(w0, "engage in conversation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("conveyor")
 //
 val () =
 word_add_meaning(w0, "a moving band of metal to transport objects")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("convulsive")
+//
+val () =
+word_add_meaning(w0, "producing sudden movements")
 //
 } // end of [val]
 
@@ -737,10 +880,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("copious")
+//
+val () =
+word_add_meaning(w0, "abundant in supply")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("corporate")
 //
 val () =
 word_add_meaning(w0, "relating to a large company")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("correlation")
+//
+val () =
+word_add_meaning(w0, "a connection")
 //
 } // end of [val]
 
@@ -864,6 +1033,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("crimp")
+//
+val () =
+word_add_meaning(w0, "press into small folds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cringe")
 //
 val () =
@@ -907,6 +1089,19 @@ word_create_add("crude")
 //
 val () =
 word_add_meaning(w0, "in a natural state")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crummy")
+//
+val () =
+word_add_meaning(w0, "dirty")
 //
 } // end of [val]
 
