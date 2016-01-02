@@ -2,10 +2,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("unctuous")
+//
+val () =
+word_add_synonym(w0, "oily")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("underpinning")
 //
 val () =
 word_add_synonym(w0, "foundation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("undersize")
+//
+val () =
+word_add_meaning(w0, "less than the usual size")
 //
 } // end of [val]
 
@@ -41,6 +67,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("unnerve")
+//
+val () =
+word_add_meaning(w0, "lose courage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("unyield")
 //
 val () =
@@ -67,10 +106,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("uphold")
+//
+val () =
+word_add_synonym(w0, "confirm")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("upholster")
+//
+val () =
+word_add_meaning(w0, "provide with a soft covering")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("uptile")
 //
 val () =
 word_add_meaning(w0, "looking up")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("upturn")
+//
+val () =
+word_add_meaning(w0, "an improvement")
 //
 } // end of [val]
 

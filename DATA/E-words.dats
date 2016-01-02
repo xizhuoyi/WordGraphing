@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("earsplitting")
+//
+val () =
+word_add_meaning(w0, "very loud")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ebony")
 //
 val () =
@@ -119,10 +132,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("empirical")
+//
+val () =
+word_add_meaning(w0, "based on experience")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("encircle")
+//
+val () =
+word_add_synonym(w0, "surround")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("encore")
 //
 val () =
 word_add_meaning(w0, "an additional performance at the end")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("endanger")
+//
+val () =
+word_add_meaning(w0, "put at risk")
 //
 } // end of [val]
 
@@ -220,6 +272,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("enmity")
+//
+val () =
+word_add_meaning(w0, "the state of feeling hostile")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enormity")
+//
+val () =
+word_add_meaning(w0, "the extreme scale")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("enquiring")
 //
 val () =
@@ -246,6 +324,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ensconce")
+//
+val () =
+word_add_synonym(w0, "settle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("enthused")
 //
 val () =
@@ -259,10 +350,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("enthusiast")
+//
+val () =
+word_add_meaning(w0, "a person who is highly interested in a subject")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("epsilon")
 //
 val () =
 word_add_meaning(w0, "the fifth letter of the Greek alphabet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("eradication")
+//
+val () =
+word_add_meaning(w0, "the complete destruction")
 //
 } // end of [val]
 
@@ -286,6 +403,9 @@ word_create_add("erect")
 //
 val () =
 word_add_meaning(w0, "construct a building")
+//
+val () =
+word_add_synonym(w0, "straight")
 //
 } // end of [val]
 
@@ -412,6 +532,45 @@ val () =
 {
 //
 val w0 =
+word_create_add("exotic")
+//
+val () =
+word_add_meaning(w0, "originating in a foreign country")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("export")
+//
+val () =
+word_add_meaning(w0, "send to another country")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("extracurricular")
+//
+val () =
+word_add_meaning(w0, "in addition to an activity pursued in addtion to the normal course of study")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("extricate")
 //
 val () =
@@ -442,6 +601,9 @@ word_create_add("exude")
 //
 val () =
 word_add_meaning(w0, "let out a smell")
+//
+val () =
+word_add_synonym(w0, "discharge")
 //
 } // end of [val]
 

@@ -41,10 +41,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("hark")
+//
+val () =
+word_add_synonym(w0, "listen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("headmaster")
+//
+val () =
+word_add_meaning(w0, "the principal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("heave")
 //
 val () =
 word_add_meaning(w0, "produce a sigh")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("heckle")
+//
+val () =
+word_add_meaning(w0, "interrupt with aggressive comments")
 //
 } // end of [val]
 
@@ -97,6 +136,19 @@ word_create_add("herald")
 //
 val () =
 word_add_meaning(w0, "an official to carry messages")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hilarity")
+//
+val () =
+word_add_meaning(w0, "extreme amusement")
 //
 } // end of [val]
 
@@ -197,10 +249,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("horde")
+//
+val () =
+word_add_meaning(w0, "a large group")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hurl")
 //
 val () =
 word_add_synonym(w0, "throw")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hurtle")
+//
+val () =
+word_add_meaning(w0, "move at a great speed")
 //
 } // end of [val]
 

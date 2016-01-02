@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("malign")
+//
+val () =
+word_add_meaning(w0, "evil in nature")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("manga")
 //
 val () =
@@ -93,6 +106,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("mania")
+//
+val () =
+word_add_synonym(w0, "obsession")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("manicurist")
+//
+val () =
+word_add_meaning(w0, "people who treat the hands")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("manifest")
 //
 val () =
@@ -119,10 +158,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("manual")
+//
+val () =
+word_add_meaning(w0, "a book of instructions")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("mare")
 //
 val () =
 word_add_meaning(w0, "a female horse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("marionette")
+//
+val () =
+word_add_meaning(w0, "a puppet")
 //
 } // end of [val]
 
@@ -249,6 +314,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("memo")
+//
+val () =
+word_add_meaning(w0, "a written message")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("memorablia")
 //
 val () =
@@ -328,6 +406,32 @@ word_create_add("mince")
 //
 val () =
 word_add_meaning(w0, "cutting up meat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("minefield")
+//
+val () =
+word_add_meaning(w0, "an area planted with hidden explosive mines")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mingle")
+//
+val () =
+word_add_meaning(w0, "mix together")
 //
 } // end of [val]
 
@@ -516,10 +620,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("mullion")
+//
+val () =
+word_add_meaning(w0, "a vertical bar in a window")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("murrelet")
 //
 val () =
 word_add_meaning(w0, "a small gray and white seabird")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("musty")
+//
+val () =
+word_add_meaning(w0, "having a damp smell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mutinous")
+//
+val () =
+word_add_meaning(w0, "refusing to obey orders")
 //
 } // end of [val]
 
@@ -546,6 +689,19 @@ word_create_add("myrrh")
 //
 val () =
 word_add_meaning(w0, "a gum obtained from a tree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mystic")
+//
+val () =
+word_add_meaning(w0, "a person who believes in spirits")
 //
 } // end of [val]
 

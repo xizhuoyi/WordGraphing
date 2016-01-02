@@ -2,6 +2,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("laceration")
+//
+val () =
+word_add_meaning(w0, "a deep cut")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ladle")
+//
+val () =
+word_add_meaning(w0, "a long handled spoon")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lapel")
 //
 val () =
@@ -16,6 +42,19 @@ val () =
 //
 val w0 =
 word_create_add("lash")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("latex")
+//
+val () =
+word_add_meaning(w0, "a wall paint")
 //
 } // end of [val]
 
@@ -90,10 +129,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("leisure")
+//
+val () =
+word_add_meaning(w0, "free time")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lemur")
 //
 val () =
 word_add_meaning(w0, "a nocturnal animal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("letdown")
+//
+val () =
+word_add_synonym(w0, "disappointment")
 //
 } // end of [val]
 
@@ -194,6 +259,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("logistics")
+//
+val () =
+word_add_meaning(w0, "the coordination of an operation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("longue")
 //
 val () =
@@ -233,10 +311,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("lounger")
+//
+val () =
+word_add_meaning(w0, "a reclining chair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("louvered")
+//
+val () =
+word_add_meaning(w0, "a window blind")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lugubrious")
 //
 val () =
 word_add_meaning(w0, "looking or sounding sad")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lumbar")
+//
+val () =
+word_add_meaning(w0, "the lower part of the back")
 //
 } // end of [val]
 

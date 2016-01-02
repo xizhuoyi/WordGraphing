@@ -106,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("viable")
+//
+val () =
+word_add_meaning(w0, "capable of working")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("vial")
 //
 val () =
@@ -149,6 +162,58 @@ word_create_add("vindicate")
 //
 val () =
 word_add_meaning(w0, "clear of blame")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vital")
+//
+val () =
+word_add_synonym(w0, "essential")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vociferous")
+//
+val () =
+word_add_meaning(w0, "showing strong feeling")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("voluminous")
+//
+val () =
+word_add_meaning(w0, "containing much space")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("votive")
+//
+val () =
+word_add_meaning(w0, "offered in fulfillment of a vow")
 //
 } // end of [val]
 

@@ -41,6 +41,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("rattan")
+//
+val () =
+word_add_meaning(w0, "a species of palm trees")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rave")
 //
 val () =
@@ -132,6 +145,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("recommence")
+//
+val () =
+word_add_meaning(w0, "begin again")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("reek")
 //
 val () =
@@ -145,10 +171,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("reflexive")
+//
+val () =
+word_add_meaning(w0, "performed without thought")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("regale")
 //
 val () =
 word_add_meaning(w0, "entertain with talk")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("regime")
+//
+val () =
+word_add_meaning(w0, "a government")
 //
 } // end of [val]
 
@@ -210,6 +262,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("remonstration")
+//
+val () =
+word_add_meaning(w0, "make a protest")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("render")
 //
 val () =
@@ -236,6 +301,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("repute")
+//
+val () =
+word_add_meaning(w0, "be generally said")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("residue")
 //
 val () =
@@ -253,6 +331,19 @@ word_create_add("resolute")
 //
 val () =
 word_add_meaning(w0, "admirably determined")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("resolve")
+//
+val () =
+word_add_meaning(w0, "find a solution to")
 //
 } // end of [val]
 
@@ -366,6 +457,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("riffle")
+//
+val () =
+word_add_meaning(w0, "turn over something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rift")
 //
 val () =
@@ -457,6 +561,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("roommate")
+//
+val () =
+word_add_meaning(w0, "a person sharing a room with another")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rottweiler")
 //
 val () =
@@ -526,6 +643,58 @@ word_create_add("rummy")
 //
 val () =
 word_add_meaning(w0, "a type of card game")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rumped")
+//
+val () =
+word_add_meaning(w0, "the behind part of the body")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("runaway")
+//
+val () =
+word_add_meaning(w0, "a person who has run away")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rune")
+//
+val () =
+word_add_meaning(w0, "a letter of the ancient alphabet")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rupture")
+//
+val () =
+word_add_meaning(w0, "burst suddenly")
 //
 } // end of [val]
 

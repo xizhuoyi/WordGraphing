@@ -145,6 +145,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ferocity")
+//
+val () =
+word_add_meaning(w0, "the state of being fierce")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fervent")
 //
 val () =
@@ -184,10 +197,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("feverish")
+//
+val () =
+word_add_meaning(w0, "displaying energy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fiberglass")
 //
 val () =
 word_add_meaning(w0, "plastic made out of glass")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("firsthand")
+//
+val () =
+word_add_synonym(w0, "direct")
 //
 } // end of [val]
 
@@ -392,6 +431,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("flurry")
+//
+val () =
+word_add_meaning(w0, "a small mass")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fluster")
 //
 val () =
@@ -470,6 +522,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("forge")
+//
+val () =
+word_add_meaning(w0, "move forward")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fortify")
 //
 val () =
@@ -539,6 +604,19 @@ word_create_add("frill")
 //
 val () =
 word_add_meaning(w0, "a strip of material")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fumble")
+//
+val () =
+word_add_meaning(w0, "use the hands clumsily")
 //
 } // end of [val]
 

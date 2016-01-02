@@ -158,10 +158,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("outburst")
+//
+val () =
+word_add_meaning(w0, "a release of strong emotion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("outreach")
 //
 val () =
 word_add_meaning(w0, "the length of reaching")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overhead")
+//
+val () =
+word_add_meaning(w0, "in the sky")
 //
 } // end of [val]
 

@@ -103,6 +103,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("definitive")
+//
+val () =
+word_add_meaning(w0, "done with authority")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("defuse")
 //
 val () =
@@ -173,6 +186,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("dementia")
+//
+val () =
+word_add_meaning(w0, "a memory disorder")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("demolition")
 //
 val () =
@@ -229,6 +255,19 @@ word_create_add("deodorant")
 //
 val () =
 word_add_meaning(w0, "a cream that removes bad smells")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("depict")
+//
+val () =
+word_add_meaning(w0, "show by a drawing")
 //
 } // end of [val]
 
@@ -329,10 +368,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("detritus")
+//
+val () =
+word_add_synonym(w0, "waste")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("devoid")
 //
 val () =
 word_add_meaning(w0, "entirely lacking")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("devout")
+//
+val () =
+word_add_meaning(w0, "in a manner that shows deep feeling")
 //
 } // end of [val]
 
@@ -455,6 +520,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("discordant")
+//
+val () =
+word_add_synonym(w0, "disagreeing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("discourse")
 //
 } // end of [val]
@@ -505,6 +583,58 @@ word_create_add("disparage")
 //
 val () =
 word_add_meaning(w0, "of little worth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("disparate")
+//
+val () =
+word_add_meaning(w0, "different in kind")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dispatcher")
+//
+val () =
+word_add_meaning(w0, "a communication person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("disposophobia")
+//
+val () =
+word_add_meaning(w0, "difficulty parting with possessions")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dispostion")
+//
+val () =
+word_add_meaning(w0, "a person's inherent qualities")
 //
 } // end of [val]
 
@@ -579,6 +709,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("divulge")
+//
+val () =
+word_add_meaning(w0, "make known")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("docudrama")
 //
 val () =
@@ -635,6 +778,19 @@ word_create_add("dormant")
 //
 val () =
 word_add_meaning(w0, "not actively growing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("doss")
+//
+val () =
+word_add_synonym(w0, "sleep")
 //
 } // end of [val]
 
@@ -722,6 +878,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("dumbfound")
+//
+val () =
+word_add_meaning(w0, "greatly astonish")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dustbin")
 //
 val () =
@@ -739,6 +908,19 @@ word_create_add("dwindle")
 //
 val () =
 word_add_meaning(w0, "become less in size")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("dysphagia")
+//
+val () =
+word_add_meaning(w0, "difficulty swallowing")
 //
 } // end of [val]
 

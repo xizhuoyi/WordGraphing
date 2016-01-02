@@ -129,6 +129,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("affront")
+//
+val () =
+word_add_meaning(w0, "an action that causes outrage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("airwave")
+//
+val () =
+word_add_meaning(w0, "radio waves")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("alabaster")
 //
 val () =
@@ -194,6 +220,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("amidst")
+//
+val () =
+word_add_meaning(w0, "in the middle of")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("amorphism")
 //
 } // end of [val]
@@ -250,6 +289,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("annotation")
+//
+val () =
+word_add_synonym(w0, "notes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("anon")
 //
 val () =
@@ -280,6 +332,19 @@ word_create_add("anthrax")
 //
 val () =
 word_add_meaning(w0, "a sheep and cow bacteria")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("antidote")
+//
+val () =
+word_add_meaning(w0, "a medicine to counterattack")
 //
 } // end of [val]
 
@@ -325,6 +390,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("appliance")
+//
+val () =
+word_add_meaning(w0, "a device to perform a task")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("appraise")
 //
 val () =
@@ -355,6 +433,19 @@ word_create_add("armchair")
 //
 val () =
 word_add_meaning(w0, "a comfortable chair with supports for arms")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("artfully")
+//
+val () =
+word_add_meaning(w0, "in a skilled manner")
 //
 } // end of [val]
 
@@ -498,6 +589,45 @@ word_create_add("audacity")
 //
 val () =
 word_add_meaning(w0, "willing to take bold risks")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("audible")
+//
+val () =
+word_add_meaning(w0, "able to be heard")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("audio")
+//
+val () =
+word_add_synonym(w0, "sound")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("automate")
+//
+val () =
+word_add_meaning(w0, "an automatic operation")
 //
 } // end of [val]
 

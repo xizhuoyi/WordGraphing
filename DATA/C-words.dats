@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("calamity")
+//
+val () =
+word_add_meaning(w0, "a disaster")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("callous")
 //
 val () =
@@ -106,10 +119,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("carcinogenic")
+//
+val () =
+word_add_meaning(w0, "having the potential to cause cancer")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("careen")
 //
 val () =
 word_add_meaning(w0, "move swiftly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("carport")
+//
+val () =
+word_add_meaning(w0, "a shelter for a car")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("caseworker")
+//
+val () =
+word_add_meaning(w0, "a type of social worker")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("casserole")
+//
+val () =
+word_add_meaning(w0, "a kind of stew")
 //
 } // end of [val]
 
@@ -158,10 +223,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("cavern")
+//
+val () =
+word_add_synonym(w0, "cave")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cay")
 //
 val () =
 word_add_meaning(w0, "a low bank or reef of coral, rock, or sand")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cease")
+//
+val () =
+word_add_meaning(w0, "come to an end")
 //
 } // end of [val]
 
@@ -350,8 +441,23 @@ val () =
 {
 //
 val w0 =
+word_create_add("chuff")
+//
+val () =
+word_add_meaning(w0, "move with a puffing noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("churn")
 //
+val () =
+word_add_meaning(w0, "move about")
 val () =
 word_add_meaning(w0, "liquid moving about vigorously")
 //
@@ -380,6 +486,19 @@ word_create_add("cicada")
 //
 val () =
 word_add_meaning(w0, "a winged large bug")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("clad")
+//
+val () =
+word_add_synonym(w0, "clothed")
 //
 } // end of [val]
 
@@ -432,6 +551,19 @@ word_create_add("cleat")
 //
 val () =
 word_add_meaning(w0, "a T-shaped piece of wood where rope is attached")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cleaver")
+//
+val () =
+word_add_meaning(w0, "a tool to chop meat")
 //
 } // end of [val]
 
@@ -529,10 +661,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("cobbing")
+//
+val () =
+word_add_meaning(w0, "work done improperly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cock")
 //
 val () =
 word_add_synonym(w0, "tilt")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cocktail")
+//
+val () =
+word_add_meaning(w0, "an alchoholic drink")
 //
 } // end of [val]
 
@@ -572,6 +730,19 @@ word_create_add("coil")
 //
 val () =
 word_add_meaning(w0, "rings")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("collude")
+//
+val () =
+word_add_meaning(w0, "come to a secret understanding")
 //
 } // end of [val]
 
@@ -672,10 +843,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("competent")
+//
+val () =
+word_add_meaning(w0, "having the necessary ability")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("compress")
 //
 val () =
 word_add_meaning(w0, "become squeezed or flattened")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("compulsory")
+//
+val () =
+word_add_synonym(w0, "required")
 //
 } // end of [val]
 
@@ -806,6 +1003,19 @@ word_create_add("contigency")
 //
 val () =
 word_add_meaning(w0, "a possible future event")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("converge")
+//
+val () =
+word_add_meaning(w0, "come together")
 //
 } // end of [val]
 
@@ -984,6 +1194,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("coworker")
+//
+val () =
+word_add_meaning(w0, "a person with whom works")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("craggy")
 //
 val () =
@@ -1020,10 +1243,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("credential")
+//
+val () =
+word_add_meaning(w0, "an achievement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("creme")
 //
 val () =
 word_add_meaning(w0, "something that's creamy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crestfallen")
+//
+val () =
+word_add_meaning(w0, "disappointed")
 //
 } // end of [val]
 
@@ -1098,10 +1347,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("cruiser")
+//
+val () =
+word_add_meaning(w0, "a fast warship")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("crummy")
 //
 val () =
 word_add_meaning(w0, "dirty")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crypis")
+//
+val () =
+word_add_meaning(w0, "an ability of a plant to avoid observation")
 //
 } // end of [val]
 
@@ -1163,6 +1438,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("custody")
+//
+val () =
+word_add_meaning(w0, "the protective care of something or someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("customary")
 //
 } // end of [val]
@@ -1177,6 +1465,19 @@ word_create_add("customony")
 //
 val () =
 word_add_meaning(w0, "according to a person's habits")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cuticle")
+//
+val () =
+word_add_meaning(w0, "dead skin near the fingernail")
 //
 } // end of [val]
 

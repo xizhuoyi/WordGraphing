@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gallant")
+//
+val () =
+word_add_synonym(w0, "brave")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("garrison")
 //
 val () =
@@ -28,10 +41,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("germination")
+//
+val () =
+word_add_meaning(w0, "the development of a plant")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("getaway")
+//
+val () =
+word_add_synonym(w0, "escape")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("giddy")
 //
 val () =
 word_add_meaning(w0, "make someone feel excited")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gilt")
+//
+val () =
+word_add_meaning(w0, "covered with gold paint")
 //
 } // end of [val]
 
@@ -67,10 +119,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("git")
+//
+val () =
+word_add_meaning(w0, "an unpleasant person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gizmo")
 //
 val () =
 word_add_meaning(w0, "a fancy tool")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("glabella")
+//
+val () =
+word_add_meaning(w0, "the smooth part of the forehead")
 //
 } // end of [val]
 
@@ -110,6 +188,19 @@ word_create_add("glean")
 //
 val () =
 word_add_meaning(w0, "collect bit by bit")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("glen")
+//
+val () =
+word_add_meaning(w0, "a narrow valley")
 //
 } // end of [val]
 
@@ -184,6 +275,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("goblet")
+//
+val () =
+word_add_synonym(w0, "cup")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("godfather")
+//
+val () =
+word_add_meaning(w0, "a male person chosen by parents to look over a child")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("goon")
 //
 val () =
@@ -201,6 +318,19 @@ word_create_add("gore")
 //
 val () =
 word_add_meaning(w0, "bloodshed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gormless")
+//
+val () =
+word_add_meaning(w0, "very stupid")
 //
 } // end of [val]
 
@@ -236,6 +366,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("graft")
+//
+val () =
+word_add_meaning(w0, "insert a twig")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("grandeur")
+//
+val () =
+word_add_meaning(w0, "impressiveness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("grapple")
 //
 val () =
@@ -262,10 +418,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("gratitude")
+//
+val () =
+word_add_meaning(w0, "the quality of being thankful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("grenade")
 //
 val () =
 word_add_meaning(w0, "a small bomb")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("grimace")
+//
+val () =
+word_add_meaning(w0, "an ugly expression")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("grimy")
+//
+val () =
+word_add_synonym(w0, "dirty")
 //
 } // end of [val]
 
@@ -474,6 +669,19 @@ word_create_add("gusto")
 //
 val () =
 word_add_synonym(w0, "enjoyment")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("gutter")
+//
+val () =
+word_add_meaning(w0, "something to carry off rainwater")
 //
 } // end of [val]
 

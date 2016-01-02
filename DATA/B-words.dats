@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ballast")
+//
+val () =
+word_add_meaning(w0, "heavy material")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("baptize")
 //
 val () =
@@ -173,6 +186,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("beeline")
+//
+val () =
+word_add_meaning(w0, "a straight line")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bequile")
 //
 val () =
@@ -203,6 +229,19 @@ word_create_add("beseech")
 //
 val () =
 word_add_meaning(w0, "ask someone urgently")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("beset")
+//
+val () =
+word_add_meaning(w0, "trouble persistantly")
 //
 } // end of [val]
 
@@ -290,10 +329,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("biopsy")
+//
+val () =
+word_add_meaning(w0, "a sample of body tissue")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("biplane")
 //
 val () =
 word_add_meaning(w0, "an early airplane")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("blacktop")
+//
+val () =
+word_add_meaning(w0, "black material for surfacing roads")
 //
 } // end of [val]
 
@@ -329,10 +394,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("blithe")
+//
+val () =
+word_add_meaning(w0, "showing casual indifference")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("blokade")
 //
 val () =
 word_add_meaning(w0, "an act of sealing off a place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bloodcurdle")
+//
+val () =
+word_add_meaning(w0, "causing terror")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bloodthirsty")
+//
+val () =
+word_add_meaning(w0, "eager to shed blood")
 //
 } // end of [val]
 
@@ -385,6 +489,19 @@ word_create_add("bludgeon")
 //
 val () =
 word_add_meaning(w0, "a thick stick used as a weapon")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("blunder")
+//
+val () =
+word_add_meaning(w0, "a stupid mistake")
 //
 } // end of [val]
 
@@ -485,6 +602,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bottlebrush")
+//
+val () =
+word_add_meaning(w0, "an Australian shrub with honey scented flowers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bough")
 //
 val () =
@@ -537,6 +667,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bravado")
+//
+val () =
+word_add_meaning(w0, "a bold manner")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("brawl")
 //
 val () =
@@ -577,6 +720,19 @@ word_create_add("breach")
 //
 val () =
 word_add_meaning(w0, "a whale rising through the water")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("breathtaking")
+//
+val () =
+word_add_synonym(w0, "astonishing")
 //
 } // end of [val]
 
@@ -651,6 +807,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("broker")
+//
+val () =
+word_add_meaning(w0, "a person who buys and sells goods")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("brood")
 //
 val () =
@@ -690,10 +859,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("bureau")
+//
+val () =
+word_add_meaning(w0, "a chest of drawers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("burgundy")
+//
+val () =
+word_add_meaning(w0, "a deep red color and a deep red wine")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("burly")
 //
 val () =
 word_add_meaning(w0, "large and strong")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("burnish")
+//
+val () =
+word_add_synonym(w0, "polish")
 //
 } // end of [val]
 

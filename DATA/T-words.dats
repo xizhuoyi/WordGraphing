@@ -15,6 +15,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tactic")
+//
+val () =
+word_add_synonym(w0, "strategy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tangy")
 //
 val () =
@@ -45,6 +58,45 @@ word_create_add("tapestry")
 //
 val () =
 word_add_meaning(w0, "a piece with a picture woven from string")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("taproot")
+//
+val () =
+word_add_meaning(w0, "a straight root")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tarnish")
+//
+val () =
+word_add_meaning(w0, "make less valuable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tarp")
+//
+val () =
+word_add_meaning(w0, "a heavy duty sheet")
 //
 } // end of [val]
 
@@ -119,6 +171,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("teeter")
+//
+val () =
+word_add_meaning(w0, "balance unsteadily")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("televise")
+//
+val () =
+word_add_meaning(w0, "transmit by TV")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("temerity")
 //
 val () =
@@ -158,10 +236,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("tense")
+//
+val () =
+word_add_synonym(w0, "rigid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("testimony")
 //
 val () =
 word_add_meaning(w0, "a formal written statement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("theft")
+//
+val () =
+word_add_meaning(w0, "the action of stealing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("threshold")
+//
+val () =
+word_add_meaning(w0, "wood at a doorway")
 //
 } // end of [val]
 
@@ -366,6 +483,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("transient")
+//
+val () =
+word_add_meaning(w0, "lasting only for a short time")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("traumatize")
 //
 val () =
@@ -496,6 +626,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("truffle")
+//
+val () =
+word_add_meaning(w0, "a soft chocolate candy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tubular")
 //
 val () =
@@ -513,6 +656,19 @@ word_create_add("tuft")
 //
 val () =
 word_add_meaning(w0, "a bunch of hair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tumultuous")
+//
+val () =
+word_add_meaning(w0, "making a loud noise")
 //
 } // end of [val]
 
@@ -561,6 +717,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("twiddle")
+//
+val () =
+word_add_meaning(w0, "twist with")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("twilit")
 //
 val () =
@@ -578,6 +747,19 @@ word_create_add("twinge")
 //
 val () =
 word_add_meaning(w0, "a brief experience of an emotion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("twitter")
+//
+val () =
+word_add_meaning(w0, "a bird call")
 //
 } // end of [val]
 

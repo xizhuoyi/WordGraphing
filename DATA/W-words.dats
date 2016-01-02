@@ -106,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("wedge")
+//
+val () =
+word_add_meaning(w0, "force into a narrow space")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wedgie")
 //
 val () =
@@ -266,6 +279,19 @@ word_create_add("wistful")
 //
 val () =
 word_add_meaning(w0, "a feeling of regretful longing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wok")
+//
+val () =
+word_add_meaning(w0, "a frying pan")
 //
 } // end of [val]
 

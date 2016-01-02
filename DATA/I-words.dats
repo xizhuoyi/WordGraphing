@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("ignition")
+//
+val () =
+word_add_meaning(w0, "setting something on fire")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ignoramus")
 //
 val () =
@@ -58,6 +71,19 @@ word_create_add("immolation")
 //
 val () =
 word_add_meaning(w0, "offer as a sacrifice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("impart")
+//
+val () =
+word_add_meaning(w0, "make known")
 //
 } // end of [val]
 
@@ -158,6 +184,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("incredulity")
+//
+val () =
+word_add_meaning(w0, "being unable to believe something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("incubator")
 //
 val () =
@@ -171,10 +210,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("incurred")
+//
+val () =
+word_add_meaning(w0, "become subject to something unpleasant")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("indicator")
+//
+val () =
+word_add_meaning(w0, "a device providing info on the state of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("indigenous")
+//
+val () =
+word_add_synonym(w0, "native")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("indisputable")
 //
 val () =
 word_add_meaning(w0, "unable to be denied")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("indulgent")
+//
+val () =
+word_add_meaning(w0, "overly generous")
 //
 } // end of [val]
 
@@ -290,6 +381,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("insight")
+//
+val () =
+word_add_meaning(w0, "a deep understanding")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("intensive")
 //
 val () =
@@ -342,6 +446,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("internal")
+//
+val () =
+word_add_meaning(w0, "on the inside")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("interrogate")
 //
 val () =
@@ -359,6 +476,19 @@ word_create_add("intrepid")
 //
 val () =
 word_add_meaning(w0, "fearless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("intuitively")
+//
+val () =
+word_add_meaning(w0, "the ability to understand")
 //
 } // end of [val]
 

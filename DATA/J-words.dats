@@ -2,6 +2,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("jalapeno")
+//
+val () =
+word_add_meaning(w0, "a very hot pepper")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("jarringly")
+//
+val () =
+word_add_meaning(w0, "causing shock")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jauntily")
 //
 val () =
@@ -41,6 +67,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("jerky")
+//
+val () =
+word_add_meaning(w0, "dried lean meat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jilt")
 //
 val () =
@@ -71,6 +110,19 @@ word_create_add("juju")
 //
 val () =
 word_add_meaning(w0, "a style of guitar music")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("juncture")
+//
+val () =
+word_add_meaning(w0, "a point in time")
 //
 } // end of [val]
 
