@@ -41,10 +41,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("eclair")
+//
+val () =
+word_add_meaning(w0, "a soft pastry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ectastic")
 //
 val () =
 word_add_meaning(w0, "feeling great happiness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("editorial")
+//
+val () =
+word_add_meaning(w0, "material for publication")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("effing")
+//
+val () =
+word_add_synonym(w0, "fucking")
 //
 } // end of [val]
 
@@ -67,10 +106,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("elusive")
+//
+val () =
+word_add_meaning(w0, "difficult to find")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("embedded")
 //
 val () =
 word_add_meaning(w0, "fix firmly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ember")
+//
+val () =
+word_add_meaning(w0, "a small piece of burning coal")
 //
 } // end of [val]
 
@@ -119,6 +184,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("emit")
+//
+val () =
+word_add_synonym(w0, "produce")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("emo")
 //
 val () =
@@ -149,6 +227,19 @@ word_create_add("encircle")
 //
 val () =
 word_add_synonym(w0, "surround")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enclosure")
+//
+val () =
+word_add_meaning(w0, "an area that is sealed off")
 //
 } // end of [val]
 
@@ -363,6 +454,45 @@ val () =
 {
 //
 val w0 =
+word_create_add("entity")
+//
+val () =
+word_add_meaning(w0, "one being")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("enunciated")
+//
+val () =
+word_add_meaning(w0, "say clearly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("envoy")
+//
+val () =
+word_add_synonym(w0, "messanger")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("epsilon")
 //
 val () =
@@ -415,6 +545,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("errant")
+//
+val () =
+word_add_meaning(w0, "traveling in search of an adventure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("erratic")
 //
 val () =
@@ -432,6 +575,58 @@ word_create_add("escapade")
 //
 val () =
 word_add_meaning(w0, "an adventure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("espionage")
+//
+val () =
+word_add_meaning(w0, "practice of spying")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("esteem")
+//
+val () =
+word_add_meaning(w0, "respect")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("etext")
+//
+val () =
+word_add_meaning(w0, "electronic text")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ethic")
+//
+val () =
+word_add_meaning(w0, "a set of rules")
 //
 } // end of [val]
 
@@ -484,6 +679,32 @@ word_create_add("evade")
 //
 val () =
 word_add_meaning(w0, "escape or avoid by cleverness or trickery")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("evasive")
+//
+val () =
+word_add_meaning(w0, "responding indirectly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("evident")
+//
+val () =
+word_add_meaning(w0, "obvious")
 //
 } // end of [val]
 
@@ -574,7 +795,7 @@ val w0 =
 word_create_add("extricate")
 //
 val () =
-word_add_meaning(w0, "free oneself")
+word_add_meaning(w0, "free oneself or someone")
 //
 } // end of [val]
 

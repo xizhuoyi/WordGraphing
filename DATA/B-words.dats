@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("babble")
+//
+val () =
+word_add_meaning(w0, "talk rapidly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("babe")
 //
 val () =
@@ -84,6 +97,19 @@ word_create_add("barb")
 //
 val () =
 word_add_meaning(w0, "a sharp protection")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("barmy")
+//
+val () =
+word_add_meaning(w0, "extremely foolish")
 //
 } // end of [val]
 
@@ -186,6 +212,58 @@ val () =
 {
 //
 val w0 =
+word_create_add("bederk")
+//
+val () =
+word_add_synonym(w0, "decorate")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bedpost")
+//
+val () =
+word_add_meaning(w0, "the four supports of a bed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bedraggle")
+//
+val () =
+word_add_meaning(w0, "dirty")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("beech")
+//
+val () =
+word_add_meaning(w0, "a type of tree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("beeline")
 //
 val () =
@@ -199,10 +277,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("begot")
+//
+val () =
+word_add_meaning(w0, "bring about")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bemuse")
+//
+val () =
+word_add_meaning(w0, "puzzle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("benevolent")
+//
+val () =
+word_add_meaning(w0, "kindly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bequile")
 //
 val () =
 word_add_meaning(w0, "charm someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("berate")
+//
+val () =
+word_add_meaning(w0, "scold angrily")
 //
 } // end of [val]
 
@@ -251,10 +381,75 @@ val () =
 {
 //
 val w0 =
+word_create_add("betcha")
+//
+val () =
+word_add_meaning(w0, "bet you")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("betrothal")
+//
+val () =
+word_add_meaning(w0, "a formal agreement to marry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bewilder")
 //
 val () =
 word_add_meaning(w0, "cause someone to be confused")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bibilical")
+//
+val () =
+word_add_meaning(w0, "relating to the Bible")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bicker")
+//
+val () =
+word_add_meaning(w0, "argue about small matters")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bifocals")
+//
+val () =
+word_add_meaning(w0, "a pair of eyeglasses")
 //
 } // end of [val]
 
@@ -281,6 +476,19 @@ word_create_add("bile")
 //
 val () =
 word_add_meaning(w0, "a bitter fluid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bilingual")
+//
+val () =
+word_add_meaning(w0, "speaking two languages fluently")
 //
 } // end of [val]
 
@@ -463,6 +671,8 @@ word_create_add("blotch")
 //
 val () =
 word_add_meaning(w0, "a large spot")
+val () =
+word_add_meaning(w0, "an irregular patch")
 //
 } // end of [val]
 
@@ -537,10 +747,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("bogey")
+//
+val () =
+word_add_meaning(w0, "a thing that causes fear")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bogus")
 //
 val () =
 word_add_synonym(w0, "fake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("boisterous")
+//
+val () =
+word_add_meaning(w0, "noisy")
 //
 } // end of [val]
 
@@ -602,6 +838,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("bookend")
+//
+val () =
+word_add_meaning(w0, "a support for books")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bottlebrush")
 //
 val () =
@@ -645,6 +894,19 @@ word_create_add("bramble")
 //
 val () =
 word_add_meaning(w0, "a prickly shrub")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("brandish")
+//
+val () =
+word_add_meaning(w0, "wave something")
 //
 } // end of [val]
 
@@ -720,6 +982,19 @@ word_create_add("breach")
 //
 val () =
 word_add_meaning(w0, "a whale rising through the water")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("breakneck")
+//
+val () =
+word_add_meaning(w0, "extremely fast")
 //
 } // end of [val]
 
@@ -833,6 +1108,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("brownstone")
+//
+val () =
+word_add_meaning(w0, "reddish brown stone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("buff")
 //
 val () =
@@ -902,6 +1190,32 @@ word_create_add("burnish")
 //
 val () =
 word_add_synonym(w0, "polish")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bustle")
+//
+val () =
+word_add_meaning(w0, "move in a noisy manner")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("buzzer")
+//
+val () =
+word_add_meaning(w0, "an electrical device that buzzes as a signal")
 //
 } // end of [val]
 

@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("talisman")
+//
+val () =
+word_add_meaning(w0, "an object to bring good luck")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tangy")
 //
 val () =
@@ -93,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("taro")
+//
+val () =
+word_add_meaning(w0, "a tropical Asian plant")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tarp")
 //
 val () =
@@ -145,6 +171,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("teakettle")
+//
+val () =
+word_add_meaning(w0, "a pot for boiling water")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tearjerker")
 //
 val () =
@@ -175,6 +214,32 @@ word_create_add("teeter")
 //
 val () =
 word_add_meaning(w0, "balance unsteadily")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("telepathy")
+//
+val () =
+word_add_meaning(w0, "communication of thoughts")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("telethon")
+//
+val () =
+word_add_meaning(w0, "a television fundraising event")
 //
 } // end of [val]
 
@@ -249,6 +314,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tentative")
+//
+val () =
+word_add_meaning(w0, "not certain")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("testimony")
 //
 val () =
@@ -262,10 +340,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("textile")
+//
+val () =
+word_add_meaning(w0, "a type of cloth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("theft")
 //
 val () =
 word_add_meaning(w0, "the action of stealing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("thicket")
+//
+val () =
+word_add_meaning(w0, "a group of bushes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("thistle")
+//
+val () =
+word_add_meaning(w0, "a prickly plant")
 //
 } // end of [val]
 
@@ -314,10 +431,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("thunderstruck")
+//
+val () =
+word_add_meaning(w0, "extremely surprised")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("timorous")
 //
 val () =
 word_add_meaning(w0, "suffering from fear")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tincture")
+//
+val () =
+word_add_meaning(w0, "a medicine")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tinker")
+//
+val () =
+word_add_synonym(w0, "repair")
 //
 } // end of [val]
 
@@ -344,6 +500,32 @@ word_create_add("tirade")
 //
 val () =
 word_add_meaning(w0, "a long angry speech")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("titter")
+//
+val () =
+word_add_meaning(w0, "giggle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tizzy")
+//
+val () =
+word_add_meaning(w0, "a state of nervous excitement")
 //
 } // end of [val]
 
@@ -405,6 +587,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tolling")
+//
+val () =
+word_add_meaning(w0, "bell sounds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("torque")
 //
 val () =
@@ -444,10 +639,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("tousle")
+//
+val () =
+word_add_meaning(w0, "make untidy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("trailer")
 //
 val () =
 word_add_meaning(w0, "an unpowered vehicle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("traipse")
+//
+val () =
+word_add_meaning(w0, "walk wearily")
 //
 } // end of [val]
 
@@ -513,6 +734,32 @@ word_create_add("treason")
 //
 val () =
 word_add_meaning(w0, "the action of betraying someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tremor")
+//
+val () =
+word_add_meaning(w0, "a quivering movement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tremulous")
+//
+val () =
+word_add_meaning(w0, "shaking slightly")
 //
 } // end of [val]
 
@@ -600,10 +847,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("trodden")
+//
+val () =
+word_add_meaning(w0, "past tense of walk")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tromp")
+//
+val () =
+word_add_meaning(w0, "walk heavily")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("troop")
 //
 val () =
 word_add_meaning(w0, "a group of people")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("trousseau")
+//
+val () =
+word_add_meaning(w0, "the clothes for a bride")
 //
 } // end of [val]
 
@@ -665,10 +951,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("tugboats")
+//
+val () =
+word_add_meaning(w0, "a powerful boat for towing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tumultuous")
 //
 val () =
 word_add_meaning(w0, "making a loud noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("turban")
+//
+val () =
+word_add_meaning(w0, "a man's headdress")
 //
 } // end of [val]
 
@@ -708,6 +1020,19 @@ word_create_add("tusk")
 //
 val () =
 word_add_meaning(w0, "a long pointed tooth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tweed")
+//
+val () =
+word_add_meaning(w0, "a Scotland cloth")
 //
 } // end of [val]
 
@@ -760,6 +1085,19 @@ word_create_add("twitter")
 //
 val () =
 word_add_meaning(w0, "a bird call")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("typhoon")
+//
+val () =
+word_add_meaning(w0, "a tropical storm")
 //
 } // end of [val]
 

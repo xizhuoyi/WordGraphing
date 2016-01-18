@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("abacus")
+//
+val () =
+word_add_meaning(w0, "a frame with beads strung on wires inside")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("abalone")
 //
 val () =
@@ -90,6 +103,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("addle")
+//
+val () =
+word_add_synonym(w0, "confuse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("adequate")
+//
+val () =
+word_add_synonym(w0, "acceptable")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("adjourn")
 //
 val () =
@@ -107,6 +146,32 @@ word_create_add("admantine")
 //
 val () =
 word_add_meaning(w0, "a material that cannot be broken")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("admonishment")
+//
+val () =
+word_add_meaning(w0, "warn someone firmly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("adolescent")
+//
+val () =
+word_add_meaning(w0, "the process of becoming an adult")
 //
 } // end of [val]
 
@@ -233,6 +298,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("amok")
+//
+val () =
+word_add_synonym(w0, "uncontrollably")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("amorphism")
 //
 } // end of [val]
@@ -263,6 +341,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("anatomical")
+//
+val () =
+word_add_meaning(w0, "relating to body structure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("anemic")
 //
 val () =
@@ -280,6 +371,19 @@ word_create_add("anemone")
 //
 val () =
 word_add_meaning(w0, "a plant of the buttercup family")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("anew")
+//
+val () =
+word_add_meaning(w0, "in a new different way")
 //
 } // end of [val]
 
@@ -332,6 +436,19 @@ word_create_add("anthrax")
 //
 val () =
 word_add_meaning(w0, "a sheep and cow bacteria")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("anticlimatic")
+//
+val () =
+word_add_meaning(w0, "causing disappointment")
 //
 } // end of [val]
 
@@ -403,10 +520,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("appliqued")
+//
+val () =
+word_add_meaning(w0, "ornamental needlework")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("appraise")
 //
 val () =
 word_add_meaning(w0, "assess the quality of")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("arduous")
+//
+val () =
+word_add_meaning(w0, "difficult and tiring")
 //
 } // end of [val]
 
@@ -533,6 +676,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("aster")
+//
+val () =
+word_add_meaning(w0, "purple or pink daisies")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("asterisk")
+//
+val () =
+word_add_meaning(w0, "a symbol used as a mark")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("astride")
 //
 val () =
@@ -559,10 +728,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("asylum")
+//
+val () =
+word_add_meaning(w0, "a mentally ill hospital")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("asymmetrical")
 //
 val () =
 word_add_meaning(w0, "lacking symmetry")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("attentive")
+//
+val () =
+word_add_meaning(w0, "paying close attention")
 //
 } // end of [val]
 

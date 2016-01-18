@@ -57,7 +57,35 @@ val w0 =
 word_create_add("quaver")
 //
 val () =
+word_add_meaning(w0, "tremble in speaking")
+val () =
 word_add_meaning(w0, "a person's voice shaking")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("queue")
+//
+val () =
+word_add_meaning(w0, "a line of people")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("quizzical")
+//
+val () =
+word_add_meaning(w0, "mild amusement")
 //
 } // end of [val]
 

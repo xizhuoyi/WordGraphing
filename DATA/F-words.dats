@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("farce")
+//
+val () =
+word_add_meaning(w0, "comic dramatic work")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fartura")
 //
 val () =
@@ -106,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("femur")
+//
+val () =
+word_add_meaning(w0, "a leg bone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fend")
 //
 val () =
@@ -159,6 +185,9 @@ val () =
 //
 val w0 =
 word_create_add("fervent")
+//
+val () =
+word_add_meaning(w0, "burning")
 //
 val () =
 word_add_synonym(w0, "hot")
@@ -223,6 +252,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("fidget")
+//
+val () =
+word_add_meaning(w0, "be nervously restless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fink")
+//
+val () =
+word_add_meaning(w0, "an unpleasant person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("firsthand")
 //
 val () =
@@ -253,6 +308,19 @@ word_create_add("fixate")
 //
 val () =
 word_add_meaning(w0, "develop an attachement to something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("flagon")
+//
+val () =
+word_add_meaning(w0, "a large container")
 //
 } // end of [val]
 
@@ -366,6 +434,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("fleeting")
+//
+val () =
+word_add_meaning(w0, "very fast")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("flimsy")
+//
+val () =
+word_add_meaning(w0, "easily damaged")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("flinch")
 //
 val () =
@@ -447,7 +541,22 @@ val w0 =
 word_create_add("fluster")
 //
 val () =
+word_add_meaning(w0, "a confused state")
+val () =
 word_add_meaning(w0, "make someone nervous or confused")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("fodder")
+//
+val () =
+word_add_meaning(w0, "food for cattle")
 //
 } // end of [val]
 
@@ -509,6 +618,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("forage")
+//
+val () =
+word_add_meaning(w0, "search widely")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("foreboding")
+//
+val () =
+word_add_meaning(w0, "a feeling something bad will happen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("foremost")
 //
 val () =
@@ -535,6 +670,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("forthcome")
+//
+val () =
+word_add_meaning(w0, "about to happen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("forthright")
+//
+val () =
+word_add_synonym(w0, "direct")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("fortify")
 //
 val () =
@@ -552,6 +713,19 @@ word_create_add("fragnant")
 //
 val () =
 word_add_meaning(w0, "having a good smell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("frail")
+//
+val () =
+word_add_meaning(w0, "weak and delicate")
 //
 } // end of [val]
 
@@ -600,10 +774,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("fretsaw")
+//
+val () =
+word_add_meaning(w0, "a saw for cutting thin wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("frill")
 //
 val () =
 word_add_meaning(w0, "a strip of material")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("frivolous")
+//
+val () =
+word_add_synonym(w0, "carefree")
 //
 } // end of [val]
 
@@ -656,6 +856,19 @@ word_create_add("furrow")
 //
 val () =
 word_add_meaning(w0, "marked with lines of wrinkles")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("furtive")
+//
+val () =
+word_add_meaning(w0, "attempting to avoid attention")
 //
 } // end of [val]
 

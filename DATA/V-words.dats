@@ -2,10 +2,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("valiant")
+//
+val () =
+word_add_meaning(w0, "possessing courage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("validation")
 //
 val () =
 word_add_meaning(w0, "to make legally valid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vanquish")
+//
+val () =
+word_add_synonym(w0, "defeated")
 //
 } // end of [val]
 
@@ -32,6 +58,19 @@ word_create_add("veal")
 //
 val () =
 word_add_meaning(w0, "baby cow flesh")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vellum")
+//
+val () =
+word_add_meaning(w0, "made from a cow's skin")
 //
 } // end of [val]
 
@@ -145,6 +184,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("vibrant")
+//
+val () =
+word_add_meaning(w0, "full of energy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("vicinity")
+//
+val () =
+word_add_meaning(w0, "the area near a place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("vigour")
 //
 val () =
@@ -162,6 +227,19 @@ word_create_add("vindicate")
 //
 val () =
 word_add_meaning(w0, "clear of blame")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("virtuous")
+//
+val () =
+word_add_meaning(w0, "having high standards")
 //
 } // end of [val]
 
@@ -197,10 +275,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("vole")
+//
+val () =
+word_add_meaning(w0, "a small rodent")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("voluminous")
 //
 val () =
 word_add_meaning(w0, "containing much space")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("voracious")
+//
+val () =
+word_add_meaning(w0, "wanting much food")
 //
 } // end of [val]
 

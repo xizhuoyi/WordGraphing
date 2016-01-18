@@ -80,6 +80,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("jibbery")
+//
+val () =
+word_add_meaning(w0, "sticking out")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jilt")
 //
 val () =
@@ -97,6 +110,19 @@ word_create_add("jolt")
 //
 val () =
 word_add_meaning(w0, "push or shake")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("jovial")
+//
+val () =
+word_add_meaning(w0, "cheerful and friendly")
 //
 } // end of [val]
 

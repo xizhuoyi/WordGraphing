@@ -28,10 +28,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("hairline")
+//
+val () =
+word_add_meaning(w0, "the edge of a person's hair")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hallucinate")
 //
 val () =
 word_add_meaning(w0, "experience something that looks real but is actually just imaginary")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("handloom")
+//
+val () =
+word_add_meaning(w0, "a weavng device operated by hand power")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("harem")
+//
+val () =
+word_add_meaning(w0, "a part of a household reserved for women")
 //
 } // end of [val]
 
@@ -54,10 +93,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("harrow")
+//
+val () =
+word_add_meaning(w0, "cause distress to")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("headboard")
+//
+val () =
+word_add_meaning(w0, "a panel on the head of a bed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("headmaster")
 //
 val () =
 word_add_meaning(w0, "the principal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("headstone")
+//
+val () =
+word_add_meaning(w0, "a gravestone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hearse")
+//
+val () =
+word_add_meaning(w0, "a vehicle to carry a coffin")
 //
 } // end of [val]
 
@@ -158,10 +249,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("hillock")
+//
+val () =
+word_add_meaning(w0, "a small hill")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hind")
 //
 val () =
 word_add_meaning(w0, "a female deer")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hindrance")
+//
+val () =
+word_add_meaning(w0, "an obstacle to something")
 //
 } // end of [val]
 
@@ -210,10 +327,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("hobble")
+//
+val () =
+word_add_meaning(w0, "walk in an awkward way because of pain")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("holographic")
 //
 val () =
 word_add_meaning(w0, "produced using light beams")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("holster")
+//
+val () =
+word_add_meaning(w0, "a holder for a gun")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("homestead")
+//
+val () =
+word_add_meaning(w0, "a farmhouse")
 //
 } // end of [val]
 
@@ -249,10 +405,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("hoodlum")
+//
+val () =
+word_add_meaning(w0, "a gangster")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("horde")
 //
 val () =
 word_add_meaning(w0, "a large group")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hosiery")
+//
+val () =
+word_add_meaning(w0, "socks and tights")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("huddle")
+//
+val () =
+word_add_meaning(w0, "crowd together")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("humanity")
+//
+val () =
+word_add_meaning(w0, "human point of view")
 //
 } // end of [val]
 
@@ -292,6 +500,19 @@ word_create_add("husk")
 //
 val () =
 word_add_meaning(w0, "the outer cover of some fruits")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hyacinth")
+//
+val () =
+word_add_meaning(w0, "a lily plant")
 //
 } // end of [val]
 

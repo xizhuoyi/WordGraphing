@@ -106,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("waxwing")
+//
+val () =
+word_add_meaning(w0, "a crested songbird")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wedge")
 //
 val () =
@@ -123,6 +136,19 @@ word_create_add("wedgie")
 //
 val () =
 word_add_meaning(w0, "pulling someone's underwear")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("welfare")
+//
+val () =
+word_add_meaning(w0, "the health of a person")
 //
 } // end of [val]
 
@@ -174,6 +200,8 @@ val w0 =
 word_create_add("wheeze")
 //
 val () =
+word_add_meaning(w0, "a croak and a gasp")
+val () =
 word_add_meaning(w0, "breathe with a rattling sound in the chest")
 //
 } // end of [val]
@@ -197,10 +225,88 @@ val () =
 {
 //
 val w0 =
+word_create_add("whim")
+//
+val () =
+word_add_meaning(w0, "a sudden change of mind")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("whimsical")
+//
+val () =
+word_add_meaning(w0, "playfully unrealistic")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("whippet")
+//
+val () =
+word_add_meaning(w0, "a slender dogg")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("whiskey")
+//
+val () =
+word_add_meaning(w0, "an alchoholic drink")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wholesale")
+//
+val () =
+word_add_meaning(w0, "the selling of goods")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wicket")
 //
 val () =
 word_add_meaning(w0, "a small door")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wily")
+//
+val () =
+word_add_meaning(w0, "skilled at an advantage")
 //
 } // end of [val]
 
@@ -288,6 +394,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("woefully")
+//
+val () =
+word_add_meaning(w0, "sorrow")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wok")
 //
 val () =
@@ -366,10 +485,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("workshy")
+//
+val () =
+word_add_meaning(w0, "lazy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wraith")
 //
 val () =
 word_add_meaning(w0, "a ghost")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wrench")
+//
+val () =
+word_add_meaning(w0, "twist suddenly")
 //
 } // end of [val]
 
@@ -398,6 +543,19 @@ word_create_add("wryly")
 //
 val () =
 word_add_meaning(w0, "using dry humor")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wurst")
+//
+val () =
+word_add_meaning(w0, "German sausage")
 //
 } // end of [val]
 

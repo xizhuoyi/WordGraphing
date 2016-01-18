@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("immminent")
+//
+val () =
+word_add_meaning(w0, "about to happen")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("immobile")
 //
 val () =
@@ -84,6 +97,19 @@ word_create_add("impart")
 //
 val () =
 word_add_meaning(w0, "make known")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("imperial")
+//
+val () =
+word_add_meaning(w0, "relating to an empire")
 //
 } // end of [val]
 
@@ -145,6 +171,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("imprudent")
+//
+val () =
+word_add_meaning(w0, "not caring about the consequences")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("incarcerate")
 //
 val () =
@@ -158,10 +197,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("incense")
+//
+val () =
+word_add_meaning(w0, "a spice that is burned")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("incentive")
 //
 val () =
 word_add_meaning(w0, "a thing that motivates someone")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("incessant")
+//
+val () =
+word_add_meaning(w0, "continuing without pause")
 //
 } // end of [val]
 
@@ -227,6 +292,19 @@ word_create_add("indicator")
 //
 val () =
 word_add_meaning(w0, "a device providing info on the state of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("indifferent")
+//
+val () =
+word_add_meaning(w0, "unconcerned")
 //
 } // end of [val]
 
@@ -394,6 +472,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("institution")
+//
+val () =
+word_add_meaning(w0, "a place for a religious purpose")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("intact")
+//
+val () =
+word_add_meaning(w0, "not damaged")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("intensive")
 //
 val () =
@@ -472,10 +576,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("intimate")
+//
+val () =
+word_add_synonym(w0, "familiar")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("intrepid")
 //
 val () =
 word_add_meaning(w0, "fearless")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("intrude")
+//
+val () =
+word_add_meaning(w0, "go where one is uninvited")
 //
 } // end of [val]
 
@@ -551,6 +681,19 @@ val () =
 //
 val w0 =
 word_create_add("ironic")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("irrational")
+//
+val () =
+word_add_meaning(w0, "not logical")
 //
 } // end of [val]
 

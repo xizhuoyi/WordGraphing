@@ -15,6 +15,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("lacquer")
+//
+val () =
+word_add_meaning(w0, "a clear protective covering")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("laden")
+//
+val () =
+word_add_meaning(w0, "heavily loaded")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ladle")
 //
 val () =
@@ -28,10 +54,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("lagging")
+//
+val () =
+word_add_meaning(w0, "fall behind")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("languid")
+//
+val () =
+word_add_meaning(w0, "slow and relaxed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lanky")
+//
+val () =
+word_add_meaning(w0, "thin and tall")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lapel")
 //
 val () =
 word_add_meaning(w0, "the side of a coat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lapse")
+//
+val () =
+word_add_meaning(w0, "a temporary failure")
 //
 } // end of [val]
 
@@ -77,6 +155,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("latter")
+//
+val () =
+word_add_meaning(w0, "mentioned of two people")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lattice")
 //
 val () =
@@ -94,6 +185,19 @@ word_create_add("laurel")
 //
 val () =
 word_add_meaning(w0, "leaves woven into a crown")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("leaflet")
+//
+val () =
+word_add_meaning(w0, "a printed sheet of paper")
 //
 } // end of [val]
 
@@ -168,6 +272,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("lethal")
+//
+val () =
+word_add_meaning(w0, "sufficient to cause death")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lethargic")
 //
 val () =
@@ -220,10 +337,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("linen")
+//
+val () =
+word_add_meaning(w0, "woven cloth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("linoleum")
+//
+val () =
+word_add_meaning(w0, "a type of floor and wall covering")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lint")
 //
 val () =
 word_add_meaning(w0, "blueish-gray")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lissome")
+//
+val () =
+word_add_meaning(w0, "thin and graceful")
 //
 } // end of [val]
 
@@ -259,10 +415,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("locksmith")
+//
+val () =
+word_add_meaning(w0, "a person who makes and repairs locks")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("loganberry")
+//
+val () =
+word_add_meaning(w0, "an edible red soft fruit")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("logistics")
 //
 val () =
 word_add_meaning(w0, "the coordination of an operation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("longevity")
+//
+val () =
+word_add_meaning(w0, "long life")
 //
 } // end of [val]
 
@@ -337,10 +532,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("lowland")
+//
+val () =
+word_add_meaning(w0, "low lying country")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lugubrious")
 //
 val () =
 word_add_meaning(w0, "looking or sounding sad")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lulled")
+//
+val () =
+word_add_meaning(w0, "send to sleep")
 //
 } // end of [val]
 
@@ -367,6 +588,19 @@ word_create_add("lumber")
 //
 val () =
 word_add_meaning(w0, "move in a slow awkward way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("luminous")
+//
+val () =
+word_add_meaning(w0, "full of light")
 //
 } // end of [val]
 
@@ -406,6 +640,32 @@ word_create_add("lustily")
 //
 val () =
 word_add_meaning(w0, "in a healthy way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lute")
+//
+val () =
+word_add_meaning(w0, "an egg shaped string instrument")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lychee")
+//
+val () =
+word_add_meaning(w0, "a small rounded fruit")
 //
 } // end of [val]
 

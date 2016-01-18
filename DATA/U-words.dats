@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("undershirt")
+//
+val () =
+word_add_meaning(w0, "worn under a shirt")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("undersize")
 //
 val () =
@@ -67,10 +80,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("unholy")
+//
+val () =
+word_add_meaning(w0, "wicked")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("unnerve")
 //
 val () =
 word_add_meaning(w0, "lose courage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("unscathed")
+//
+val () =
+word_add_meaning(w0, "without suffering")
 //
 } // end of [val]
 
@@ -106,6 +145,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("upheaval")
+//
+val () =
+word_add_meaning(w0, "a sudden change")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("uphold")
 //
 val () =
@@ -123,6 +175,45 @@ word_create_add("upholster")
 //
 val () =
 word_add_meaning(w0, "provide with a soft covering")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("uproar")
+//
+val () =
+word_add_meaning(w0, "a loud disturbance")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("upshot")
+//
+val () =
+word_add_meaning(w0, "result")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("upstate")
+//
+val () =
+word_add_meaning(w0, "in the northern part of a state")
 //
 } // end of [val]
 

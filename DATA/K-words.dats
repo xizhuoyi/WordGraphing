@@ -109,7 +109,7 @@ val w0 =
 word_create_add("kowtow")
 //
 val () =
-word_add_meaning(w0, "kneel on the ground")
+word_add_meaning(w0, "kneel and touch the ground")
 //
 } // end of [val]
 

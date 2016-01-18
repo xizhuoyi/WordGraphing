@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("yammer")
+//
+val () =
+word_add_meaning(w0, "loud repetitive noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("yeti")
 //
 val () =

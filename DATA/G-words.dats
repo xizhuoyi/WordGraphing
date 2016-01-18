@@ -2,10 +2,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("gaily")
+//
+val () =
+word_add_meaning(w0, "in a cheerful way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gallant")
 //
 val () =
 word_add_synonym(w0, "brave")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("garble")
+//
+val () =
+word_add_meaning(w0, "reproduce a sound in a confused way")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("garland")
+//
+val () =
+word_add_meaning(w0, "a prize")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("garnish")
+//
+val () =
+word_add_meaning(w0, "decorate")
 //
 } // end of [val]
 
@@ -97,6 +149,8 @@ word_create_add("gin")
 //
 val () =
 word_add_meaning(w0, "a clear alchohol")
+val () =
+word_add_meaning(w0, "a seven string Chinese musical instrument")
 //
 } // end of [val]
 
@@ -149,6 +203,19 @@ word_create_add("glabella")
 //
 val () =
 word_add_meaning(w0, "the smooth part of the forehead")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("glade")
+//
+val () =
+word_add_meaning(w0, "an open space in a forest")
 //
 } // end of [val]
 
@@ -236,6 +303,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gnarl")
+//
+val () =
+word_add_meaning(w0, "rough and knotty")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gnaw")
 //
 val () =
@@ -292,6 +372,19 @@ word_create_add("godfather")
 //
 val () =
 word_add_meaning(w0, "a male person chosen by parents to look over a child")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("godliness")
+//
+val () =
+word_add_meaning(w0, "relating to wishes of god")
 //
 } // end of [val]
 
@@ -366,6 +459,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gourd")
+//
+val () =
+word_add_meaning(w0, "a fleshy large fruit")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("graft")
 //
 val () =
@@ -431,6 +537,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("greenery")
+//
+val () =
+word_add_meaning(w0, "green plants")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("grenade")
 //
 val () =
@@ -483,6 +602,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grits")
+//
+val () =
+word_add_meaning(w0, "a dish of corn kernels")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("groggy")
 //
 val () =
@@ -513,6 +645,32 @@ word_create_add("grommet")
 //
 val () =
 word_add_meaning(w0, "cloth to protect a rope")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("groove")
+//
+val () =
+word_add_meaning(w0, "a long narrow cut")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("grotesque")
+//
+val () =
+word_add_meaning(w0, "extremely ugly")
 //
 } // end of [val]
 
@@ -600,6 +758,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("grudgingly")
+//
+val () =
+word_add_meaning(w0, "resentfully")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("gruesome")
 //
 val () =
@@ -617,6 +788,19 @@ word_create_add("grungy")
 //
 val () =
 word_add_synonym(w0, "dirty")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("guffaw")
+//
+val () =
+word_add_meaning(w0, "a loud laugh")
 //
 } // end of [val]
 

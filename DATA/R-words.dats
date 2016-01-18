@@ -2,6 +2,58 @@ val () =
 {
 //
 val w0 =
+word_create_add("rabbi")
+//
+val () =
+word_add_meaning(w0, "a Jewish teacher")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rafter")
+//
+val () =
+word_add_meaning(w0, "beams to support a structure")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ragbag")
+//
+val () =
+word_add_meaning(w0, "a bag for old clothes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rally")
+//
+val () =
+word_add_meaning(w0, "come together again")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rampart")
 //
 val () =
@@ -54,6 +106,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("raucous")
+//
+val () =
+word_add_meaning(w0, "making a harsh noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ravage")
+//
+val () =
+word_add_meaning(w0, "cause severe damage to")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rave")
 //
 val () =
@@ -67,10 +145,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("ravine")
+//
+val () =
+word_add_meaning(w0, "a deep gorge")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("realgar")
+//
+val () =
+word_add_meaning(w0, "a soft reddish mineral")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rearview")
 //
 val () =
 word_add_meaning(w0, "a mirror that shows an area behind a vehicle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("reboot")
+//
+val () =
+word_add_meaning(w0, "restart a computer")
 //
 } // end of [val]
 
@@ -149,6 +266,19 @@ word_create_add("recommence")
 //
 val () =
 word_add_meaning(w0, "begin again")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("redbud")
+//
+val () =
+word_add_meaning(w0, "a pink flowering tree")
 //
 } // end of [val]
 
@@ -262,10 +392,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("relocate")
+//
+val () =
+word_add_meaning(w0, "move to a new place")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("remonstration")
 //
 val () =
 word_add_meaning(w0, "make a protest")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("remorse")
+//
+val () =
+word_add_meaning(w0, "deep regret")
 //
 } // end of [val]
 
@@ -405,6 +561,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("reverberate")
+//
+val () =
+word_add_meaning(w0, "repeat several times")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("reverbrate")
 //
 val () =
@@ -422,6 +591,19 @@ word_create_add("revolt")
 //
 val () =
 word_add_meaning(w0, "cause to feel disgust")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("revulsion")
+//
+val () =
+word_add_meaning(w0, "a sense of disgust")
 //
 } // end of [val]
 
@@ -574,6 +756,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("rosewood")
+//
+val () =
+word_add_meaning(w0, "tropical wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rottweiler")
 //
 val () =
@@ -600,6 +795,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("rubble")
+//
+val () =
+word_add_meaning(w0, "stone waste")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("rucksack")
 //
 val () =
@@ -617,6 +825,9 @@ word_create_add("ruddy")
 //
 val () =
 word_add_meaning(w0, "having a healthy red color")
+//
+val () =
+word_add_synonym(w0, "bloody")
 //
 } // end of [val]
 
@@ -656,6 +867,19 @@ word_create_add("rumped")
 //
 val () =
 word_add_meaning(w0, "the behind part of the body")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("rumpus")
+//
+val () =
+word_add_meaning(w0, "a noisy disturbance")
 //
 } // end of [val]
 

@@ -54,6 +54,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("obstinate")
+//
+val () =
+word_add_meaning(w0, "stubborn")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("oddball")
 //
 val () =
@@ -145,6 +158,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("orb")
+//
+val () =
+word_add_synonym(w0, "globe")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ordeal")
+//
+val () =
+word_add_meaning(w0, "a painful experience")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("ornate")
 //
 val () =
@@ -171,10 +210,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("outcrop")
+//
+val () =
+word_add_meaning(w0, "a rock formation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("outreach")
 //
 val () =
 word_add_meaning(w0, "the length of reaching")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overbook")
+//
+val () =
+word_add_meaning(w0, "accept more reservations that there is room for")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overcoat")
+//
+val () =
+word_add_meaning(w0, "a long warm coat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("overhang")
+//
+val () =
+word_add_meaning(w0, "hang outward")
 //
 } // end of [val]
 

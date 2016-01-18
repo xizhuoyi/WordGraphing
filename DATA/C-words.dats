@@ -28,10 +28,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("calico")
+//
+val () =
+word_add_meaning(w0, "a type of cat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("callous")
 //
 val () =
 word_add_meaning(w0, "an area of hardened skin")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("camcorder")
+//
+val () =
+word_add_meaning(w0, "a portable video recorder")
 //
 } // end of [val]
 
@@ -84,6 +110,19 @@ word_create_add("carabiner")
 //
 val () =
 word_add_meaning(w0, "a tool used by rock climbers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("caravan")
+//
+val () =
+word_add_meaning(w0, "a vehicle for living in")
 //
 } // end of [val]
 
@@ -162,6 +201,32 @@ word_create_add("caseworker")
 //
 val () =
 word_add_meaning(w0, "a type of social worker")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cashmere")
+//
+val () =
+word_add_meaning(w0, "fine soft wool")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("casket")
+//
+val () =
+word_add_meaning(w0, "a box for a dead person")
 //
 } // end of [val]
 
@@ -262,6 +327,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("celestial")
+//
+val () =
+word_add_meaning(w0, "relating to the sky")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cellular")
 //
 val () =
@@ -292,6 +370,19 @@ word_create_add("chamois")
 //
 val () =
 word_add_meaning(w0, "soft leather")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chap")
+//
+val () =
+word_add_meaning(w0, "a young man")
 //
 } // end of [val]
 
@@ -379,10 +470,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("chatterbox")
+//
+val () =
+word_add_meaning(w0, "a person who talks a lot")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("chauvinist")
 //
 val () =
 word_add_meaning(w0, "an aggressive person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chiffon")
+//
+val () =
+word_add_meaning(w0, "a light silk fabric")
 //
 } // end of [val]
 
@@ -432,6 +549,19 @@ word_create_add("chisel")
 //
 val () =
 word_add_meaning(w0, "a tool to cut wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("chopper")
+//
+val () =
+word_add_meaning(w0, "a helicopter")
 //
 } // end of [val]
 
@@ -495,6 +625,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("cinema")
+//
+val () =
+word_add_meaning(w0, "movie theater")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cinnabar")
+//
+val () =
+word_add_meaning(w0, "a bright red color")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("clad")
 //
 val () =
@@ -521,10 +677,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("clamor")
+//
+val () =
+word_add_meaning(w0, "a loud noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("clank")
 //
 val () =
 word_add_meaning(w0, "a loud sharp sound")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("clarity")
+//
+val () =
+word_add_meaning(w0, "the quality of being clear")
 //
 } // end of [val]
 
@@ -564,6 +746,19 @@ word_create_add("cleaver")
 //
 val () =
 word_add_meaning(w0, "a tool to chop meat")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cleft")
+//
+val () =
+word_add_meaning(w0, "split into two")
 //
 } // end of [val]
 
@@ -700,6 +895,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("codger")
+//
+val () =
+word_add_meaning(w0, "an elderly man")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("coho")
 //
 val () =
@@ -791,10 +999,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("commentate")
+//
+val () =
+word_add_meaning(w0, "report on an event")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("commodity")
 //
 val () =
 word_add_meaning(w0, "a valuable thing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("communal")
+//
+val () =
+word_add_meaning(w0, "for common use")
 //
 } // end of [val]
 
@@ -973,10 +1207,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("congregation")
+//
+val () =
+word_add_meaning(w0, "a group of people worshiping their religion")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("connoissuer")
+//
+val () =
+word_add_meaning(w0, "an expert judge")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("conquest")
 //
 val () =
 word_add_meaning(w0, "the control of a person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("consolation")
+//
+val () =
+word_add_meaning(w0, "comfort")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("consolidate")
+//
+val () =
+word_add_meaning(w0, "combine")
 //
 } // end of [val]
 
@@ -1003,6 +1289,19 @@ word_create_add("contigency")
 //
 val () =
 word_add_meaning(w0, "a possible future event")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("continuum")
+//
+val () =
+word_add_meaning(w0, "a continuous sequence")
 //
 } // end of [val]
 
@@ -1042,6 +1341,19 @@ word_create_add("conveyor")
 //
 val () =
 word_add_meaning(w0, "a moving band of metal to transport objects")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("convulsion")
+//
+val () =
+word_add_meaning(w0, "a sudden attack of illness")
 //
 } // end of [val]
 
@@ -1103,6 +1415,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("corncrib")
+//
+val () =
+word_add_meaning(w0, "a bin for corn")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("corporate")
 //
 val () =
@@ -1133,6 +1458,19 @@ word_create_add("correspondence")
 //
 val () =
 word_add_meaning(w0, "a close connection")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("corrosive")
+//
+val () =
+word_add_meaning(w0, "causing hatred")
 //
 } // end of [val]
 
@@ -1207,6 +1545,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("crabgrass")
+//
+val () =
+word_add_meaning(w0, "a creeping weed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crackpot")
+//
+val () =
+word_add_synonym(w0, "strange")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("craggy")
 //
 val () =
@@ -1256,6 +1620,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("cremated")
+//
+val () =
+word_add_meaning(w0, "burn a dead person's body")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("creme")
 //
 val () =
@@ -1269,10 +1646,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("crest")
+//
+val () =
+word_add_meaning(w0, "the top of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("crestfallen")
 //
 val () =
 word_add_meaning(w0, "disappointed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crick")
+//
+val () =
+word_add_meaning(w0, "a painful and stiff feeling")
 //
 } // end of [val]
 
@@ -1312,6 +1715,45 @@ word_create_add("critique")
 //
 val () =
 word_add_meaning(w0, "a detailed evaluation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crochet")
+//
+val () =
+word_add_meaning(w0, "when yarn is made into fabric")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("crock")
+//
+val () =
+word_add_meaning(w0, "a jar")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("croon")
+//
+val () =
+word_add_synonym(w0, "hum")
 //
 } // end of [val]
 
@@ -1412,6 +1854,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("culmination")
+//
+val () =
+word_add_meaning(w0, "the highest point of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("currant")
+//
+val () =
+word_add_meaning(w0, "a small dried black fruit")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("curt")
 //
 val () =
@@ -1425,10 +1893,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("curtly")
+//
+val () =
+word_add_meaning(w0, "rudely brief")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cusp")
 //
 val () =
 word_add_meaning(w0, "a pointed end")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("custard")
+//
+val () =
+word_add_meaning(w0, "a type of desert")
 //
 } // end of [val]
 
@@ -1478,6 +1972,19 @@ word_create_add("cuticle")
 //
 val () =
 word_add_meaning(w0, "dead skin near the fingernail")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cutoffs")
+//
+val () =
+word_add_meaning(w0, "cutting off part of the legs")
 //
 } // end of [val]
 

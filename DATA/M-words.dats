@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("madstone")
+//
+val () =
+word_add_meaning(w0, "a stone to suck out poison in stories")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("maelstrom")
 //
 val () =
@@ -19,6 +32,19 @@ word_create_add("mafia")
 //
 val () =
 word_add_meaning(w0, "a criminal")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("magistrate")
+//
+val () =
+word_add_meaning(w0, "an officer who makes the laws")
 //
 } // end of [val]
 
@@ -54,10 +80,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("malice")
+//
+val () =
+word_add_meaning(w0, "the desire to do evil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("malign")
 //
 val () =
 word_add_meaning(w0, "evil in nature")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mallet")
+//
+val () =
+word_add_synonym(w0, "hammer")
 //
 } // end of [val]
 
@@ -158,6 +210,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("mantel")
+//
+val () =
+word_add_meaning(w0, "a structure of wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("manual")
 //
 val () =
@@ -240,6 +305,19 @@ word_create_add("martyr")
 //
 val () =
 word_add_meaning(w0, "a person who is killed because of their beliefs")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("matchmaker")
+//
+val () =
+word_add_meaning(w0, "a person who arranges marriages")
 //
 } // end of [val]
 
@@ -353,6 +431,84 @@ val () =
 {
 //
 val w0 =
+word_create_add("mesmerize")
+//
+val () =
+word_add_meaning(w0, "hold the attention of")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("meted")
+//
+val () =
+word_add_meaning(w0, "give out as a punishment")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("meticulous")
+//
+val () =
+word_add_meaning(w0, "extremely careful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mewling")
+//
+val () =
+word_add_meaning(w0, "a whimper ")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("midstride")
+//
+val () =
+word_add_meaning(w0, "in a middle of a step")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("midwife")
+//
+val () =
+word_add_meaning(w0, "a person trained to assist women in childbirth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("miff")
 //
 val () =
@@ -370,6 +526,19 @@ word_create_add("mildew")
 //
 val () =
 word_add_meaning(w0, "a thin whitish coating on plants")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("milkweed")
+//
+val () =
+word_add_meaning(w0, "a plant with milky sap")
 //
 } // end of [val]
 
@@ -493,6 +662,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("misrepresent")
+//
+val () =
+word_add_meaning(w0, "give a false account")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mobility")
+//
+val () =
+word_add_meaning(w0, "the ability to be moved easily")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("mocha")
 //
 val () =
@@ -529,10 +724,75 @@ val () =
 {
 //
 val w0 =
+word_create_add("mojo")
+//
+val () =
+word_add_meaning(w0, "a magic spell")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("molder")
+//
+val () =
+word_add_meaning(w0, "slowly rot")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("monitor")
+//
+val () =
+word_add_meaning(w0, "a device for keeping a record of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("mope")
 //
 val () =
 word_add_meaning(w0, "feeling sad")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("morale")
+//
+val () =
+word_add_meaning(w0, "the confidence of a person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("moreover")
+//
+val () =
+word_add_meaning(w0, "besides")
 //
 } // end of [val]
 
@@ -598,6 +858,19 @@ word_create_add("mouthfeel")
 //
 val () =
 word_add_meaning(w0, "the physical sensations in the mouth produced by a particular food")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("muff")
+//
+val () =
+word_add_meaning(w0, "a tube made of fur")
 //
 } // end of [val]
 
@@ -676,6 +949,19 @@ word_create_add("mutton")
 //
 val () =
 word_add_meaning(w0, "sheep flesh")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("myraid")
+//
+val () =
+word_add_meaning(w0, "a countless number")
 //
 } // end of [val]
 

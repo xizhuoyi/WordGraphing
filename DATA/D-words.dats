@@ -77,10 +77,62 @@ val () =
 {
 //
 val w0 =
+word_create_add("deadweight")
+//
+val () =
+word_add_meaning(w0, "the weight of a thing or a heavy burden")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("deathbed")
+//
+val () =
+word_add_meaning(w0, "the bed where someone has died")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("debark")
 //
 val () =
 word_add_meaning(w0, "remove the bark from a tree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("decal")
+//
+val () =
+word_add_meaning(w0, "a design prepared on special paper")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("defection")
+//
+val () =
+word_add_meaning(w0, "the desertion of one's cause")
 //
 } // end of [val]
 
@@ -177,6 +229,19 @@ word_create_add("delta")
 //
 val () =
 word_add_meaning(w0, "a triangle")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("delude")
+//
+val () =
+word_add_synonym(w0, "fool")
 //
 } // end of [val]
 
@@ -433,6 +498,32 @@ val () =
 {
 //
 val w0 =
+word_create_add("diaphanous")
+//
+val () =
+word_add_meaning(w0, "delicate and light")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("diatribe")
+//
+val () =
+word_add_meaning(w0, "a forceful verbal attack")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dicey")
 //
 val () =
@@ -510,7 +601,33 @@ val () =
 {
 //
 val w0 =
+word_create_add("dimwit")
+//
+val () =
+word_add_meaning(w0, "a stupid person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("disaster")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("disconcert")
+//
+val () =
+word_add_meaning(w0, "unsettle")
 //
 } // end of [val]
 
@@ -534,6 +651,19 @@ val () =
 //
 val w0 =
 word_create_add("discourse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("discrepancy")
+//
+val () =
+word_add_meaning(w0, "a lack of similarity")
 //
 } // end of [val]
 
@@ -735,10 +865,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("dollop")
+//
+val () =
+word_add_meaning(w0, "a shapeless blob")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dolt")
 //
 val () =
 word_add_meaning(w0, "a stupid person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("domineer")
+//
+val () =
+word_add_meaning(w0, "intimidate")
 //
 } // end of [val]
 
@@ -774,6 +930,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("dope")
+//
+val () =
+word_add_meaning(w0, "a stupid person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dormant")
 //
 val () =
@@ -800,10 +969,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("douse")
+//
+val () =
+word_add_synonym(w0, "drench")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("downcast")
+//
+val () =
+word_add_meaning(w0, "in low spirits")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("dowry")
 //
 val () =
 word_add_meaning(w0, "an amount of money brought on a marraige")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("draperies")
+//
+val () =
+word_add_meaning(w0, "cloth coverings")
 //
 } // end of [val]
 
@@ -826,6 +1034,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("drawstring")
+//
+val () =
+word_add_meaning(w0, "a string to tighten something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("drone")
 //
 val () =
@@ -839,10 +1060,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("dropper")
+//
+val () =
+word_add_meaning(w0, "a rubber top")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("drudge")
 //
 val () =
 word_add_meaning(w0, "a person made to do hard work")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("drugstore")
+//
+val () =
+word_add_meaning(w0, "a pharmacy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("drunkard")
+//
+val () =
+word_add_meaning(w0, "a person who is drunk")
 //
 } // end of [val]
 

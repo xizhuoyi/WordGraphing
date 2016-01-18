@@ -15,10 +15,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("nape")
+//
+val () =
+word_add_meaning(w0, "the back of a person's neck")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("nautical")
 //
 val () =
 word_add_meaning(w0, "relating to sailing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("naval")
+//
+val () =
+word_add_meaning(w0, "relating to a navy")
 //
 } // end of [val]
 
@@ -80,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("nonchalant")
+//
+val () =
+word_add_meaning(w0, "appearing calm")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("nondescript")
 //
 val () =
@@ -93,10 +132,49 @@ val () =
 {
 //
 val w0 =
+word_create_add("nonnunisex")
+//
+val () =
+word_add_meaning(w0, "born again")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("nonsensical")
+//
+val () =
+word_add_meaning(w0, "making no sense")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("nostalgia")
 //
 val () =
 word_add_meaning(w0, "a longing for the past")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("notation")
+//
+val () =
+word_add_meaning(w0, "a series of written symbols")
 //
 } // end of [val]
 
