@@ -82,6 +82,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("palanquin")
+//
+val () =
+word_add_meaning(w0, "a seat for one passenger")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("palate")
 //
 val () =
@@ -375,6 +388,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("parsley")
+//
+val () =
+word_add_meaning(w0, "a type of herb")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("pasture")
 //
 val () =
@@ -479,6 +505,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("pawnshop")
+//
+val () =
+word_add_meaning(w0, "a person who lends money's shop")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("payload")
 //
 val () =
@@ -557,6 +596,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("pence")
+//
+val () =
+word_add_meaning(w0, "a penny")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("pendulum")
 //
 val () =
@@ -600,6 +652,19 @@ word_create_add("pensive")
 //
 val () =
 word_add_meaning(w0, "engaged in")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("perennial")
+//
+val () =
+word_add_meaning(w0, "lasting for a long time")
 //
 } // end of [val]
 
@@ -741,6 +806,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("pewter")
+//
+val () =
+word_add_meaning(w0, "tin and lead")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("phenomena")
 //
 val () =
@@ -832,6 +910,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("placard")
+//
+val () =
+word_add_meaning(w0, "a printed notice")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("placate")
 //
 val () =
@@ -902,6 +993,19 @@ word_create_add("plantain")
 //
 val () =
 word_add_meaning(w0, "a tropical banana")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("plantation")
+//
+val () =
+word_add_meaning(w0, "land where crops are grown")
 //
 } // end of [val]
 
@@ -1210,6 +1314,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("poultry")
+//
+val () =
+word_add_meaning(w0, "tame birds")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("powerhouse")
 //
 val () =
@@ -1276,6 +1393,19 @@ word_create_add("precipice")
 //
 val () =
 word_add_meaning(w0, "a very steep cliff")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("preen")
+//
+val () =
+word_add_meaning(w0, "tidy its feathers")
 //
 } // end of [val]
 

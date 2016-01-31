@@ -57,7 +57,23 @@ val w0 =
 word_create_add("obstinate")
 //
 val () =
-word_add_meaning(w0, "stubborn")
+word_add_meaning(w0, "stubbornly refusing to change one's mind")
+//
+val () =
+word_add_synonym(w0, "stubborn")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("ochazuke")
+//
+val () =
+word_add_meaning(w0, "green tea mixed with rice")
 //
 } // end of [val]
 
@@ -84,6 +100,19 @@ word_create_add("omen")
 //
 val () =
 word_add_meaning(w0, "an event taken as good or evil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("onigiri")
+//
+val () =
+word_add_meaning(w0, "rice balls")
 //
 } // end of [val]
 

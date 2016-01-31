@@ -262,6 +262,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("vixen")
+//
+val () =
+word_add_meaning(w0, "a quarrelsome woman")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("vociferous")
 //
 val () =

@@ -207,6 +207,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("aftershave")
+//
+val () =
+word_add_meaning(w0, "a scented lotion for shaved skin")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("airwave")
 //
 val () =
@@ -423,6 +436,19 @@ word_create_add("antagonism")
 //
 val () =
 word_add_meaning(w0, "active unfriendliness")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("antebellum")
+//
+val () =
+word_add_meaning(w0, "before the civil war")
 //
 } // end of [val]
 

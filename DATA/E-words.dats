@@ -834,6 +834,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("exultant")
+//
+val () =
+word_add_meaning(w0, "extremely happy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("eyestrain")
 //
 val () =

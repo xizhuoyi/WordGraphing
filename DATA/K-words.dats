@@ -2,10 +2,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("ketch")
+//
+val () =
+word_add_meaning(w0, "Yorkshire form of catch")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("khaki")
 //
 val () =
 word_add_meaning(w0, "a dull fabric")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("kimono")
+//
+val () =
+word_add_meaning(w0, "a long loose robe")
 //
 } // end of [val]
 
@@ -71,6 +97,19 @@ word_create_add("kneepad")
 //
 val () =
 word_add_meaning(w0, "a protective covering for the knee")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("knobstick")
+//
+val () =
+word_add_meaning(w0, "a short stick with a knob on top")
 //
 } // end of [val]
 

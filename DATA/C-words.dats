@@ -67,6 +67,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("campanula")
+//
+val () =
+word_add_meaning(w0, "a bell flower")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("cantankerous")
 //
 val () =
@@ -84,6 +97,19 @@ word_create_add("canter")
 //
 val () =
 word_add_meaning(w0, "the pace of a horse")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("capitalistic")
+//
+val () =
+word_add_meaning(w0, "a wealthy person")
 //
 } // end of [val]
 
@@ -396,6 +422,19 @@ word_create_add("chapel")
 //
 val () =
 word_add_meaning(w0, "a small Christian worship building")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("char")
+//
+val () =
+word_add_meaning(w0, "partially burnt")
 //
 } // end of [val]
 
@@ -947,6 +986,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("collie")
+//
+val () =
+word_add_meaning(w0, "a Scotland sheepdog")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("collude")
 //
 val () =
@@ -1467,6 +1519,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("corrode")
+//
+val () =
+word_add_meaning(w0, "destroy or damage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("corrosive")
 //
 val () =
@@ -1497,6 +1562,45 @@ word_create_add("cosmo")
 //
 val () =
 word_add_meaning(w0, "the universe")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cot")
+//
+val () =
+word_add_meaning(w0, "a camp bed")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("cottager")
+//
+val () =
+word_add_meaning(w0, "a person living in a cottage")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("courtyard")
+//
+val () =
+word_add_meaning(w0, "an unroofed area surrounded by walls")
 //
 } // end of [val]
 
@@ -1611,6 +1715,19 @@ word_create_add("credential")
 //
 val () =
 word_add_meaning(w0, "an achievement")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("creeper")
+//
+val () =
+word_add_meaning(w0, "a plant that is growing along the ground")
 //
 } // end of [val]
 

@@ -142,6 +142,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("defiant")
+//
+val () =
+word_add_meaning(w0, "showing resistance")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("defile")
 //
 val () =
@@ -333,6 +346,19 @@ word_create_add("depict")
 //
 val () =
 word_add_meaning(w0, "show by a drawing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("deprive")
+//
+val () =
+word_add_meaning(w0, "deny the use of something")
 //
 } // end of [val]
 
@@ -790,6 +816,9 @@ val w0 =
 word_create_add("distend")
 //
 val () =
+word_add_meaning(w0, "swelled up")
+//
+val () =
 word_add_synonym(w0, "swell")
 //
 } // end of [val]
@@ -956,10 +985,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("dormitory")
+//
+val () =
+word_add_meaning(w0, "a large bedroom for people in school")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("doss")
 //
 val () =
 word_add_synonym(w0, "sleep")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("doughcake")
+//
+val () =
+word_add_meaning(w0, "a dough lump")
 //
 } // end of [val]
 

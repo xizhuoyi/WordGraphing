@@ -168,6 +168,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("sass")
+//
+val () =
+word_add_synonym(w0, "cheek")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("satin")
 //
 val () =
@@ -508,6 +521,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("sexer")
+//
+val () =
+word_add_meaning(w0, "a person who determines the gender of something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shackle")
 //
 val () =
@@ -742,6 +768,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("shun")
+//
+val () =
+word_add_meaning(w0, "persistantly avoid")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("shuttle")
 //
 val () =
@@ -772,6 +811,19 @@ word_create_add("sidestep")
 //
 val () =
 word_add_meaning(w0, "avoid by stepping sideways")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("sidle")
+//
+val () =
+word_add_meaning(w0, "walk in a timid manner")
 //
 } // end of [val]
 
@@ -931,6 +983,19 @@ word_create_add("slaver")
 //
 val () =
 word_add_meaning(w0, "saliva running from the mouth")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("slobber")
+//
+val () =
+word_add_meaning(w0, "saliva dripping")
 //
 } // end of [val]
 
@@ -1100,6 +1165,19 @@ word_create_add("snog")
 //
 val () =
 word_add_synonym(w0, "kiss")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("snowdrop")
+//
+val () =
+word_add_meaning(w0, "a drooping white flower")
 //
 } // end of [val]
 
@@ -1372,6 +1450,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("spiteful")
+//
+val () =
+word_add_meaning(w0, "showing ill will")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("splint")
 //
 val () =
@@ -1493,6 +1584,19 @@ word_create_add("spurt")
 //
 val () =
 word_add_meaning(w0, "gush out")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("sputter")
+//
+val () =
+word_add_meaning(w0, "a spitting noise")
 //
 } // end of [val]
 
@@ -2179,6 +2283,19 @@ word_create_add("surrogate")
 //
 val () =
 word_add_synonym(w0, "subsitute")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("surveryor")
+//
+val () =
+word_add_meaning(w0, "a person who investigates land")
 //
 } // end of [val]
 

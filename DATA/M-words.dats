@@ -2,6 +2,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("madman")
+//
+val () =
+word_add_meaning(w0, "a mentally ill man")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("madstone")
 //
 val () =
@@ -58,6 +71,19 @@ word_create_add("mahogany")
 //
 val () =
 word_add_meaning(w0, "reddish brown wood")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mahout")
+//
+val () =
+word_add_meaning(w0, "a person who rides an elephant")
 //
 } // end of [val]
 
@@ -288,6 +314,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("marred")
+//
+val () =
+word_add_synonym(w0, "spoiled")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("marsh")
 //
 val () =
@@ -369,7 +408,7 @@ val w0 =
 word_create_add("meld")
 //
 val () =
-word_add_meaning(w0, "combine")
+word_add_synonym(w0, "combine")
 //
 } // end of [val]
 
@@ -513,6 +552,19 @@ word_create_add("miff")
 //
 val () =
 word_add_synonym(w0, "annoy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("mignonette")
+//
+val () =
+word_add_meaning(w0, "a plant with spikes of green flowers")
 //
 } // end of [val]
 
@@ -675,6 +727,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("missel")
+//
+val () =
+word_add_meaning(w0, "a bird with a brown back and spotted breast")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("mobility")
 //
 val () =
@@ -715,6 +780,19 @@ word_create_add("moderator")
 //
 val () =
 word_add_meaning(w0, "a person who attempts to make people involved in an argument agree")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("moither")
+//
+val () =
+word_add_meaning(w0, "talk in a confused manner")
 //
 } // end of [val]
 
@@ -780,6 +858,19 @@ word_create_add("morale")
 //
 val () =
 word_add_meaning(w0, "the confidence of a person")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("morbid")
+//
+val () =
+word_add_meaning(w0, "an unhealthy interest")
 //
 } // end of [val]
 

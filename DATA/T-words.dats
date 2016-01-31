@@ -145,6 +145,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("tater")
+//
+val () =
+word_add_meaning(w0, "a potato")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("tatter")
 //
 val () =
@@ -422,6 +435,19 @@ word_create_add("thud")
 //
 val () =
 word_add_meaning(w0, "a dull heavy sound")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("thug")
+//
+val () =
+word_add_meaning(w0, "a violent person")
 //
 } // end of [val]
 
@@ -808,6 +834,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("trill")
+//
+val () =
+word_add_meaning(w0, "rapid sung notes")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("trimester")
 //
 val () =
@@ -968,6 +1007,19 @@ word_create_add("tumultuous")
 //
 val () =
 word_add_meaning(w0, "making a loud noise")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("tuppence")
+//
+val () =
+word_add_meaning(w0, "two pennies")
 //
 } // end of [val]
 

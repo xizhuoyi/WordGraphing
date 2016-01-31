@@ -290,6 +290,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("wick")
+//
+val () =
+word_add_synonym(w0, "alive")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("wicket")
 //
 val () =
@@ -515,6 +528,19 @@ word_create_add("wrench")
 //
 val () =
 word_add_meaning(w0, "twist suddenly")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("wretch")
+//
+val () =
+word_add_meaning(w0, "an unfortunate person")
 //
 } // end of [val]
 

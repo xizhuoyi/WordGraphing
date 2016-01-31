@@ -173,6 +173,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gist")
+//
+val () =
+word_add_meaning(w0, "the general meaning")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("git")
 //
 val () =
@@ -472,6 +485,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("gourmet")
+//
+val () =
+word_add_meaning(w0, "good food")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("graft")
 //
 val () =
@@ -528,6 +554,19 @@ word_create_add("gratitude")
 //
 val () =
 word_add_meaning(w0, "the quality of being thankful")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("greaseball")
+//
+val () =
+word_add_meaning(w0, "a foreigner")
 //
 } // end of [val]
 

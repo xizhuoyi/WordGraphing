@@ -119,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("feminine")
+//
+val () =
+word_add_meaning(w0, "qualities associated with women")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("femur")
 //
 val () =
@@ -486,6 +499,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("floozy")
+//
+val () =
+word_add_meaning(w0, "a girl who is very sexy")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("flourescent")
 //
 val () =
@@ -503,6 +529,19 @@ word_create_add("flourish")
 //
 val () =
 word_add_meaning(w0, "a bold action")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("flout")
+//
+val () =
+word_add_meaning(w0, "openly disregard")
 //
 } // end of [val]
 

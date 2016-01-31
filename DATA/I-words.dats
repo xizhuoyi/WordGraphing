@@ -418,10 +418,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("inlaid")
+//
+val () =
+word_add_meaning(w0, "decorate an object")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("inmates")
 //
 val () =
 word_add_meaning(w0, "people in prison")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("inoculator")
+//
+val () =
+word_add_meaning(w0, "a person who vaccinates people")
 //
 } // end of [val]
 
@@ -671,6 +697,19 @@ word_create_add("invoke")
 //
 val () =
 word_add_meaning(w0, "mention to")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("irate")
+//
+val () =
+word_add_meaning(w0, "feeling great anger")
 //
 } // end of [val]
 

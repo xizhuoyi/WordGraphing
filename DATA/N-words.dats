@@ -28,6 +28,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("narcissus")
+//
+val () =
+word_add_meaning(w0, "a white daffodil")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("nautical")
 //
 val () =

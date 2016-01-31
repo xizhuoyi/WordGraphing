@@ -522,6 +522,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("restrain")
+//
+val () =
+word_add_meaning(w0, "prevent from doing something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("resurrect")
 //
 val () =
@@ -552,6 +565,19 @@ word_create_add("retrospect")
 //
 val () =
 word_add_meaning(w0, "a review of past events")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("reverant")
+//
+val () =
+word_add_meaning(w0, "feeling deep respect")
 //
 } // end of [val]
 
@@ -743,6 +769,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("romp")
+//
+val () =
+word_add_meaning(w0, "play energetically")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("roommate")
 //
 val () =
@@ -783,6 +822,9 @@ val () =
 //
 val w0 =
 word_create_add("rouse")
+//
+val () =
+word_add_meaning(w0, "bring out of sleep")
 //
 val () =
 word_add_synonym(w0, "awaken")

@@ -89,10 +89,9 @@ dict_get_wordlst
 )
 
 implement
-theDict =
-let
+theDict = let
 //
-val INITCAP = 1024
+val INITCAP = 4096
 //
 in
   hashtbl_make_nil<string,word>(i2sz(INITCAP))

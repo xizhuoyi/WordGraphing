@@ -106,6 +106,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hatchery")
+//
+val () =
+word_add_meaning(w0, "a place for hatching eggs")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("headboard")
 //
 val () =
@@ -236,6 +249,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("heyday")
+//
+val () =
+word_add_meaning(w0, "the period of something's success")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hilarity")
 //
 val () =
@@ -314,6 +340,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("hoach")
+//
+val () =
+word_add_meaning(w0, "be full")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("hoax")
 //
 val () =
@@ -331,6 +370,32 @@ word_create_add("hobble")
 //
 val () =
 word_add_meaning(w0, "walk in an awkward way because of pain")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hobnail")
+//
+val () =
+word_add_meaning(w0, "a short nail for boot soles")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("holly")
+//
+val () =
+word_add_meaning(w0, "an evergreen shrub")
 //
 } // end of [val]
 
@@ -526,6 +591,19 @@ word_create_add("hypnotic")
 //
 val () =
 word_add_meaning(w0, "applying a fascinating effect")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("hysteric")
+//
+val () =
+word_add_meaning(w0, "a wild emotional reaction")
 //
 } // end of [val]
 

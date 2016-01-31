@@ -290,6 +290,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("behold")
+//
+val () =
+word_add_meaning(w0, "see or observe something")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("bemuse")
 //
 val () =
@@ -502,6 +515,8 @@ word_create_add("billow")
 //
 val () =
 word_add_meaning(w0, "fill with air")
+val () =
+word_add_meaning(w0, "a large mass of gas")
 //
 } // end of [val]
 
@@ -1030,10 +1045,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("briar")
+//
+val () =
+word_add_meaning(w0, "a tobacco pipe")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("brim")
 //
 val () =
 word_add_meaning(w0, "almost overflowing")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("bristly")
+//
+val () =
+word_add_meaning(w0, "having a stiff structure")
 //
 } // end of [val]
 

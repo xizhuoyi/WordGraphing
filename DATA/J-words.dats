@@ -119,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("jonquil")
+//
+val () =
+word_add_meaning(w0, "clusters of small yellow flowers")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("jovial")
 //
 val () =
@@ -136,6 +149,19 @@ word_create_add("juju")
 //
 val () =
 word_add_meaning(w0, "a style of guitar music")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("jukebox")
+//
+val () =
+word_add_meaning(w0, "a machine to play music")
 //
 } // end of [val]
 

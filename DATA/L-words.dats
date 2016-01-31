@@ -119,6 +119,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("larkspur")
+//
+val () =
+word_add_meaning(w0, "a buttercup plant")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lash")
 //
 } // end of [val]
@@ -183,6 +196,8 @@ val () =
 val w0 =
 word_create_add("laurel")
 //
+val () =
+word_add_meaning(w0, "shrubs")
 val () =
 word_add_meaning(w0, "leaves woven into a crown")
 //
@@ -311,10 +326,36 @@ val () =
 {
 //
 val w0 =
+word_create_add("liable")
+//
+val () =
+word_add_meaning(w0, "responsible by law")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("lib")
 //
 val () =
 word_add_meaning(w0, "a lie")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lichen")
+//
+val () =
+word_add_meaning(w0, "a simple slow growing plant")
 //
 } // end of [val]
 
@@ -445,6 +486,19 @@ word_create_add("logistics")
 //
 val () =
 word_add_meaning(w0, "the coordination of an operation")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
+word_create_add("lollygagging")
+//
+val () =
+word_add_synonym(w0, "idle")
 //
 } // end of [val]
 

@@ -67,6 +67,19 @@ val () =
 {
 //
 val w0 =
+word_create_add("unearth")
+//
+val () =
+word_add_meaning(w0, "find in the ground")
+//
+} // end of [val]
+
+(* ****** ****** *)
+
+val () =
+{
+//
+val w0 =
 word_create_add("unfurl")
 //
 val () =
