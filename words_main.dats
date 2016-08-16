@@ -127,17 +127,29 @@ val () =
 if _html_ then
 {
 //
-val () = println! ("<!DOCTYPE html>")
+val () =
+println! ("<!DOCTYPE html>")
 //
 val () = println! ("<html>")
 //
 val () = println! ("<head>")
-val () = println! ("<title>WordGraphing</title>")
+//
+val () =
+println!
+  ("<title>WordGraphing</title>")
+//
 val () = println! ("</head>")
 //
 val () = println! ("<body>")
 //
+val () = println! ("<hr></hr>")
+//
+val () =
+println! ("<h1>Zoe's WordGraphing</h1>")
+//
 val () = fprint_wordlst_html(stdout_ref, ws)
+//
+val () = println! ("<hr></hr>")
 //
 val () = println! ("</body>")
 //
