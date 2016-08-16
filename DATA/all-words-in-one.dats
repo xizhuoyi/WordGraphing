@@ -1741,7 +1741,7 @@ val () =
 {
 //
 val w0 =
-word_create_add("bonsais")
+word_create_add("bonsai")
 //
 val () =
 word_add_meaning(w0, "an artificial tree")

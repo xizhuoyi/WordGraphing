@@ -124,7 +124,7 @@ word_create_add("barracuda")
 val () =
 word_add_meaning(w0, "a type of tropical fish")
 val () =
-word_add_meaning(w0, "Barracuda is a ray-finned fish known for its large size and fearsome appearance. Its body is long, fairly compressed, and covered with small, smooth scales.")
+word_add_meaning(w0, "a ray-finned fish known for its large size and fearsome appearance; its body is long, fairly compressed, and covered with small, smooth scales")
 //
 } // end of [val]
 
@@ -840,7 +840,7 @@ val () =
 {
 //
 val w0 =
-word_create_add("bonsais")
+word_create_add("bonsai")
 //
 val () =
 word_add_meaning(w0, "an artificial tree")
