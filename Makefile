@@ -16,7 +16,7 @@ cleanall:: ; $(RMF) words_main
 ######
 
 words_main: \
-words_main.dats ; \
+words_main.dats words_util.dats ; \
 $(PATSCC) -DATS_MEMALLOC_LIBC -o $@ $< -latslib
 
 ######

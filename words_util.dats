@@ -281,33 +281,44 @@ fprintln! (out, "<h2>", w0.spelling(), "</h2>")
 val () =
 fprintln! (out, "<ul>")
 //
+val ws =
+list0_map<gvalue><string>
+( w0.meanings()
+, lam(x) => GVstring_uncons(x)
+) (* end of [val] *)
+val ws = list0_reverse(ws)
+val () = fprintln! (out, "<li>")
+local
+implement
+fprint_list$sep<>
+  (out) = fprint(out, "; ")
+in
 val () =
-fprintln! (out, "<li>")
+fprintln! (out, "meaning: ", ws)
+end // end of [local]
+val () = fprintln! (out, "</li>")
 //
 val ws =
 list0_map<gvalue><string>
 ( w0.synonyms()
 , lam(x) => GVstring_uncons(x)
 ) (* end of [val] *)
+val ws = list0_reverse(ws)
+val () = fprintln! (out, "<li>")
 val () =
 fprintln! (out, "synonyms: ", ws)
-//
-val () =
-fprintln! (out, "</li>")
-//
-val () =
-fprintln! (out, "<li>")
+val () = fprintln! (out, "</li>")
 //
 val ws =
 list0_map<gvalue><string>
 ( w0.antonyms()
 , lam(x) => GVstring_uncons(x)
 ) (* end of [val] *)
+val ws = list0_reverse(ws)
+val () = fprintln! (out, "<li>")
 val () =
 fprintln! (out, "antonyms: ", ws)
-//
-val () =
-fprintln! (out, "</li>")
+val () = fprintln! (out, "</li>")
 //
 val () =
 fprintln! (out, "</ul>")

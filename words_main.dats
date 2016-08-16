@@ -136,7 +136,7 @@ val () = println! ("<head>")
 //
 val () =
 println!
-  ("<title>WordGraphing</title>")
+  ("<title>Zoe-WordGraphing</title>")
 //
 val () = println! ("</head>")
 //
