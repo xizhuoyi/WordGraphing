@@ -62,6 +62,8 @@ var
 _a2z_: bool = false
 var
 _all_: bool = false
+var
+_html_: bool = false
 //
 val () =
 if
@@ -70,16 +72,7 @@ then (
   case+ argv[1] of
   | "-a2z" => _a2z_ := true
   | "-all" => _all_ := true
-  | _ (* rest *) => ((*void*))
-) (* end of [then] *)
-//
-val () =
-if
-argc >= 3
-then (
-  case+ argv[2] of
-  | "-a2z" => _a2z_ := true
-  | "-all" => _all_ := true
+  | "-html" => _html_ := true
   | _ (* rest *) => ((*void*))
 ) (* end of [then] *)
 //
@@ -124,9 +117,31 @@ val ((*void*)) = list0_foreach(ws_dup, lam(w) => println! (w.spelling()))
 val ((*void*)) = println! ("*)")
 val () = println! ("\n(* ****** ****** *)\n")
 //
+*)
+//
 val ((*void*)) = println! ("(* end of [all-words-in-one.dats] *)")
 //
-*)
+} (* end of [val] *)
+//
+val () =
+if _html_ then
+{
+//
+val () = println! ("<!DOCTYPE html>")
+//
+val () = println! ("<html>")
+//
+val () = println! ("<head>")
+val () = println! ("<title>WordGraphing</title>")
+val () = println! ("</head>")
+//
+val () = println! ("<body>")
+//
+val () = fprint_wordlst_html(stdout_ref, ws)
+//
+val () = println! ("</body>")
+//
+val () = println! ("</html>")
 //
 } (* end of [val] *)
 //

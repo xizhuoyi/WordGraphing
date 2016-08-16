@@ -143,6 +143,13 @@ fprint_word_text : fprint_type(word)
 (* ****** ****** *)
 //
 fun{}
+fprint_word_html : fprint_type(word)
+fun{}
+fprint_wordlst_html : fprint_type(wordlst)
+//
+(* ****** ****** *)
+//
+fun{}
 fprint_word_code : fprint_type(word)
 fun{}
 fprint_wordlst_code : fprint_type(wordlst)

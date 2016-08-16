@@ -14,6 +14,10 @@
 //
 (* ****** ****** *)
 
+staload UN = $UNSAFE
+
+(* ****** ****** *)
+
 staload _(*anon*) = "libats/DATS/qlist.dats"
 staload _(*anon*) = "libats/DATS/linmap_list.dats"
 staload _(*anon*) = "libats/DATS/hashtbl_chain.dats"
@@ -262,6 +266,83 @@ val () =
 fprintln! (out, "  ", "antonyms: ", w0.antonyms())
 //
 } (* end of [fprint_word_text] *)
+
+(* ****** ****** *)
+
+implement
+{}(*tmp*)
+fprint_word_html
+  (out, w0) = () where
+{
+//
+val () =
+fprintln! (out, "<h2>", w0.spelling(), "</h2>")
+//
+val () =
+fprintln! (out, "<ul>")
+//
+val () =
+fprintln! (out, "<li>")
+//
+val ws =
+list0_map<gvalue><string>
+( w0.synonyms()
+, lam(x) => GVstring_uncons(x)
+) (* end of [val] *)
+val () =
+fprintln! (out, "synonyms: ", ws)
+//
+val () =
+fprintln! (out, "</li>")
+//
+val () =
+fprintln! (out, "<li>")
+//
+val ws =
+list0_map<gvalue><string>
+( w0.antonyms()
+, lam(x) => GVstring_uncons(x)
+) (* end of [val] *)
+val () =
+fprintln! (out, "antonyms: ", ws)
+//
+val () =
+fprintln! (out, "</li>")
+//
+val () =
+fprintln! (out, "</ul>")
+//
+} (* end of [fprint_word_html] *)
+
+(* ****** ****** *)
+
+implement
+{}(*tmp*)
+fprint_wordlst_html
+  (out, ws) = let
+//
+var i: int = 0
+val p_i = addr@i
+//
+macdef i_get() = $UN.ptr0_get<int>(p_i)
+macdef i_inc() = $UN.ptr0_addby<int>(p_i, 1)
+//
+implement
+wordlst_process$cont<>(w) = true
+implement
+wordlst_process$fwork<>(w) =
+{
+  val () =
+    if i_get() > 0 then
+      fprintln! (out, "<hr></hr>")
+    // end of [if]
+  val () = i_inc()
+  val () = fprint_word_html(out, w)
+}
+//
+in
+  ignoret(wordlst_process(ws))
+end // end of [fprint_wordlst_html]
 
 (* ****** ****** *)
 
